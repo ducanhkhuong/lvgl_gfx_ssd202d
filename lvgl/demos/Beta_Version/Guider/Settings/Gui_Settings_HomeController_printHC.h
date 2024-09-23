@@ -181,7 +181,7 @@
 	lv_obj_set_style_pad_all(ui->screen_Setting_HomeController_printHC_btn_AddtoHC, 0, LV_STATE_DEFAULT);
 	lv_obj_set_width(ui->screen_Setting_HomeController_printHC_btn_AddtoHC_label, LV_PCT(100));
 	lv_obj_set_pos(ui->screen_Setting_HomeController_printHC_btn_AddtoHC, 20, 607);
-	lv_obj_set_size(ui->screen_Setting_HomeController_printHC_btn_AddtoHC, 680, 104);
+	lv_obj_set_size(ui->screen_Setting_HomeController_printHC_btn_AddtoHC, 680, 92);
 	lv_obj_set_style_bg_opa(ui->screen_Setting_HomeController_printHC_btn_AddtoHC, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_bg_color(ui->screen_Setting_HomeController_printHC_btn_AddtoHC, lv_color_hex(0x1c1c1c), LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_bg_grad_dir(ui->screen_Setting_HomeController_printHC_btn_AddtoHC, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);

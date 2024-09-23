@@ -129,7 +129,7 @@
 	lv_obj_set_style_pad_all(ui->screen_Setting_Brightness_btn_Save, 0, LV_STATE_DEFAULT);
 	lv_obj_set_width(ui->screen_Setting_Brightness_btn_Save_label, LV_PCT(100));
 	lv_obj_set_pos(ui->screen_Setting_Brightness_btn_Save, 20, 607);
-	lv_obj_set_size(ui->screen_Setting_Brightness_btn_Save, 680, 104);
+	lv_obj_set_size(ui->screen_Setting_Brightness_btn_Save, 680, 92);
 	lv_obj_set_style_bg_opa(ui->screen_Setting_Brightness_btn_Save, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_bg_color(ui->screen_Setting_Brightness_btn_Save, lv_color_hex(0x1c1c1c), LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_bg_grad_dir(ui->screen_Setting_Brightness_btn_Save, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);

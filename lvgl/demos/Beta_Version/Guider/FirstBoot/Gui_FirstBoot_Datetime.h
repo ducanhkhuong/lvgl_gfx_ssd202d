@@ -1,8 +1,8 @@
 
 
 	ui->screen_FirstBoot_DateTime_tileview_gui = lv_tileview_create(ui->screen_FirstBoot_DateTime);
-	ui->screen_FirstBoot_DateTime_tileview_gui_DateTime = lv_tileview_add_tile(ui->screen_FirstBoot_DateTime_tileview_gui, 0, 0, LV_DIR_NONE);
-	ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone = lv_tileview_add_tile(ui->screen_FirstBoot_DateTime_tileview_gui, 1, 0, LV_DIR_NONE);
+	ui->screen_FirstBoot_DateTime_tileview_gui_DateTime = lv_tileview_add_tile(ui->screen_FirstBoot_DateTime_tileview_gui, 0, 0, LV_DIR_TOP | LV_DIR_BOTTOM);// LV_DIR_TOP | LV_DIR_BOTTOM
+	ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone = lv_tileview_add_tile(ui->screen_FirstBoot_DateTime_tileview_gui, 0, 1, LV_DIR_TOP | LV_DIR_BOTTOM);
 	lv_obj_set_pos(ui->screen_FirstBoot_DateTime_tileview_gui, 0, 0);
 	lv_obj_set_size(ui->screen_FirstBoot_DateTime_tileview_gui, 720, 720);
 	lv_obj_set_scrollbar_mode(ui->screen_FirstBoot_DateTime_tileview_gui, LV_SCROLLBAR_MODE_OFF);
@@ -34,7 +34,7 @@
 	lv_obj_set_style_radius(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_24hourse, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_24hourse, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_24hourse, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_24hourse, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_24hourse, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_24hourse, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_24hourse, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -47,7 +47,7 @@
 	lv_obj_set_style_border_width(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_Header, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_Header, &lv_font_montserrat_48, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_Header, &lumi_font_helvetica_48, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_Header, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_letter_space(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_Header, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_line_space(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -76,7 +76,7 @@
 	lv_obj_set_style_radius(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_Previous, 92, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_Previous, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_Previous, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_Previous, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_Previous, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_Previous, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_Previous, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -97,7 +97,7 @@
 	lv_obj_set_style_radius(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_Next, 92, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_Next, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_Next, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_Next, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_Next, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_Next, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_Next, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -118,7 +118,7 @@
 	lv_obj_set_style_radius(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_Timezone, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_Timezone, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_Timezone, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_Timezone, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_Timezone, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_Timezone, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_btn_Timezone, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -126,12 +126,12 @@
 	ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_NameTimeZone = lv_label_create(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime);
 	lv_label_set_text(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_NameTimeZone, "Ho Chi Minh");
 	lv_label_set_long_mode(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_NameTimeZone, LV_LABEL_LONG_WRAP);
-	lv_obj_set_pos(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_NameTimeZone, 355, 272);
+	lv_obj_set_pos(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_NameTimeZone, 355, 265);
 	lv_obj_set_size(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_NameTimeZone, 311, 38);
 	lv_obj_set_style_border_width(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_NameTimeZone, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_NameTimeZone, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_NameTimeZone, lv_color_hex(0xacacac), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_NameTimeZone, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_NameTimeZone, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_NameTimeZone, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_letter_space(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_NameTimeZone, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_line_space(ui->screen_FirstBoot_DateTime_tileview_gui_DateTime_NameTimeZone, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -188,7 +188,7 @@
 
 
 	ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_tileview_gui     = lv_tileview_create(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone);
-	ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_tileview_gui_ch1 = lv_tileview_add_tile(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_tileview_gui, 0, 0,LV_DIR_LEFT | LV_DIR_RIGHT);
+	ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_tileview_gui_ch1 = lv_tileview_add_tile(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_tileview_gui, 0, 0,LV_DIR_NONE);
 	lv_obj_set_pos(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_tileview_gui, 20, 107);
 	lv_obj_set_size(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_tileview_gui, 680, 472);
 	lv_obj_set_scrollbar_mode(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_tileview_gui, LV_SCROLLBAR_MODE_OFF);
@@ -219,7 +219,7 @@
 	lv_obj_set_style_radius(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_HongKong, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_HongKong, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_HongKong, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_HongKong, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_HongKong, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_HongKong, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_HongKong, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -240,7 +240,7 @@
 	lv_obj_set_style_radius(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_HCM, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_HCM, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_HCM, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_HCM, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_HCM, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_HCM, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_HCM, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -261,7 +261,7 @@
 	lv_obj_set_style_radius(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_Jarkata, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_Jarkata, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_Jarkata, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_Jarkata, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_Jarkata, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_Jarkata, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_Jarkata, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -282,7 +282,7 @@
 	lv_obj_set_style_radius(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_BangCok, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_BangCok, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_BangCok, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_BangCok, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_BangCok, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_BangCok, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_BangCok, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -295,7 +295,7 @@
 	lv_obj_set_style_border_width(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_Header, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_Header, &lv_font_montserrat_48, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_Header, &lumi_font_helvetica_48, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_Header, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_letter_space(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_Header, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_line_space(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -316,7 +316,7 @@
 	lv_obj_set_style_pad_all(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_SaveTimeZone, 0, LV_STATE_DEFAULT);
 	lv_obj_set_width(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_SaveTimeZone_label, LV_PCT(100));
 	lv_obj_set_pos(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_SaveTimeZone, 20, 607);
-	lv_obj_set_size(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_SaveTimeZone, 680, 104);
+	lv_obj_set_size(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_SaveTimeZone, 680, 92);
 	lv_obj_set_style_bg_opa(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_SaveTimeZone, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_bg_color(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_SaveTimeZone, lv_color_hex(0x1c1c1c), LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_bg_grad_dir(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_SaveTimeZone, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -324,6 +324,6 @@
 	lv_obj_set_style_radius(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_SaveTimeZone, 50, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_SaveTimeZone, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_SaveTimeZone, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_SaveTimeZone, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_SaveTimeZone, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_SaveTimeZone, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_FirstBoot_DateTime_tileview_gui_TimeZone_btn_SaveTimeZone, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
