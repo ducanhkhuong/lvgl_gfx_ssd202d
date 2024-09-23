@@ -74,7 +74,12 @@
         "gui_device_device7.h": "c",
         "gui_device_device8.h": "c",
         "event_firstboot_inputhc.h": "c",
-        "event_firstboot_nohc.h": "c"
+        "event_firstboot_nohc.h": "c",
+        "gui_firstboot_homecontroller_inputhc.h": "c",
+        "gui_firstboot_not_network.h": "c",
+        "gui_settings_sleep.h": "c",
+        "gui_settings_homecontroller_nohc.h": "c",
+        "gui_settings_homecontroller_inputhc.h": "c"
     },
     "cmake.ignoreCMakeListsMissing": true,
     "C_Cpp.errorSquiggles": "disabled"

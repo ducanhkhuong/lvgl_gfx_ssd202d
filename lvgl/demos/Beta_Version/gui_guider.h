@@ -429,8 +429,9 @@ LV_IMG_DECLARE(_background_4);
 LV_IMG_DECLARE(_background_5);
 //-------------------------------
 
+//Device_IMG----------------------
 
-
+//--------------------------------
 
 //Settings_IMG----------------------
 #include "src/extra/widgets/animimg/lv_animimg.h"

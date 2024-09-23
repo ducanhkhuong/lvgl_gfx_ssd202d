@@ -117,18 +117,17 @@
 	lv_obj_set_style_text_opa(ui->screen_Setting_Network_tileview_item_textarea_GateWay, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_letter_space(ui->screen_Setting_Network_tileview_item_textarea_GateWay, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_Setting_Network_tileview_item_textarea_GateWay, LV_TEXT_ALIGN_RIGHT, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_color(ui->screen_Setting_Network_tileview_item_textarea_GateWay, lv_color_hex(0x1c1c1c), LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_bg_opa(ui->screen_Setting_Network_tileview_item_textarea_GateWay, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_border_width(ui->screen_Setting_Network_tileview_item_textarea_GateWay, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_border_opa(ui->screen_Setting_Network_tileview_item_textarea_GateWay, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_border_color(ui->screen_Setting_Network_tileview_item_textarea_GateWay, lv_color_hex(0xe6e6e6), LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_border_side(ui->screen_Setting_Network_tileview_item_textarea_GateWay, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_Setting_Network_tileview_item_textarea_GateWay, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_pad_top(ui->screen_Setting_Network_tileview_item_textarea_GateWay, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_pad_right(ui->screen_Setting_Network_tileview_item_textarea_GateWay, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_pad_left(ui->screen_Setting_Network_tileview_item_textarea_GateWay, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_Setting_Network_tileview_item_textarea_GateWay, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_bg_opa(ui->screen_Setting_Network_tileview_item_textarea_GateWay, 255, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
-	lv_obj_set_style_bg_color(ui->screen_Setting_Network_tileview_item_textarea_GateWay, lv_color_hex(0x2195f6), LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_color(ui->screen_Setting_Network_tileview_item_textarea_GateWay, lv_color_hex(0x1c1c1c), LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
 	lv_obj_set_style_bg_grad_dir(ui->screen_Setting_Network_tileview_item_textarea_GateWay, LV_GRAD_DIR_NONE, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_Setting_Network_tileview_item_textarea_GateWay, 0, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
 
@@ -151,21 +150,19 @@
 	lv_obj_set_style_text_opa(ui->screen_Setting_Network_tileview_item_textarea_IP, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_letter_space(ui->screen_Setting_Network_tileview_item_textarea_IP, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_Setting_Network_tileview_item_textarea_IP, LV_TEXT_ALIGN_RIGHT, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_color(ui->screen_Setting_Network_tileview_item_textarea_IP, lv_color_hex(0x1c1c1c), LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_bg_opa(ui->screen_Setting_Network_tileview_item_textarea_IP, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_border_width(ui->screen_Setting_Network_tileview_item_textarea_IP, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_border_opa(ui->screen_Setting_Network_tileview_item_textarea_IP, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_border_color(ui->screen_Setting_Network_tileview_item_textarea_IP, lv_color_hex(0xe6e6e6), LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_border_side(ui->screen_Setting_Network_tileview_item_textarea_IP, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_Setting_Network_tileview_item_textarea_IP, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_pad_top(ui->screen_Setting_Network_tileview_item_textarea_IP, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_pad_right(ui->screen_Setting_Network_tileview_item_textarea_IP, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_pad_left(ui->screen_Setting_Network_tileview_item_textarea_IP, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_Setting_Network_tileview_item_textarea_IP, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_bg_opa(ui->screen_Setting_Network_tileview_item_textarea_IP, 255, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
-	lv_obj_set_style_bg_color(ui->screen_Setting_Network_tileview_item_textarea_IP, lv_color_hex(0x2195f6), LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_color(ui->screen_Setting_Network_tileview_item_textarea_IP, lv_color_hex(0x1c1c1c), LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
 	lv_obj_set_style_bg_grad_dir(ui->screen_Setting_Network_tileview_item_textarea_IP, LV_GRAD_DIR_NONE, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_Setting_Network_tileview_item_textarea_IP, 0, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
-
 
 	ui->screen_Setting_Network_tileview_item_textarea_Subnet = lv_textarea_create(ui->screen_Setting_Network_tileview_item);
 	lv_textarea_set_text(ui->screen_Setting_Network_tileview_item_textarea_Subnet, "");
@@ -185,21 +182,19 @@
 	lv_obj_set_style_text_opa(ui->screen_Setting_Network_tileview_item_textarea_Subnet, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_letter_space(ui->screen_Setting_Network_tileview_item_textarea_Subnet, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_Setting_Network_tileview_item_textarea_Subnet, LV_TEXT_ALIGN_RIGHT, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_color(ui->screen_Setting_Network_tileview_item_textarea_Subnet, lv_color_hex(0x1c1c1c), LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_bg_opa(ui->screen_Setting_Network_tileview_item_textarea_Subnet, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_border_width(ui->screen_Setting_Network_tileview_item_textarea_Subnet, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_border_opa(ui->screen_Setting_Network_tileview_item_textarea_Subnet, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_border_color(ui->screen_Setting_Network_tileview_item_textarea_Subnet, lv_color_hex(0xe6e6e6), LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_border_side(ui->screen_Setting_Network_tileview_item_textarea_Subnet, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_Setting_Network_tileview_item_textarea_Subnet, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_pad_top(ui->screen_Setting_Network_tileview_item_textarea_Subnet, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_pad_right(ui->screen_Setting_Network_tileview_item_textarea_Subnet, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_pad_left(ui->screen_Setting_Network_tileview_item_textarea_Subnet, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_Setting_Network_tileview_item_textarea_Subnet, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_bg_opa(ui->screen_Setting_Network_tileview_item_textarea_Subnet, 255, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
-	lv_obj_set_style_bg_color(ui->screen_Setting_Network_tileview_item_textarea_Subnet, lv_color_hex(0x2195f6), LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_color(ui->screen_Setting_Network_tileview_item_textarea_Subnet, lv_color_hex(0x1c1c1c), LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
 	lv_obj_set_style_bg_grad_dir(ui->screen_Setting_Network_tileview_item_textarea_Subnet, LV_GRAD_DIR_NONE, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_Setting_Network_tileview_item_textarea_Subnet, 0, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
-
 	
 	ui->screen_Setting_Network_tileview_item_textarea_DNS = lv_textarea_create(ui->screen_Setting_Network_tileview_item);
 	lv_textarea_set_text(ui->screen_Setting_Network_tileview_item_textarea_DNS, "");
@@ -219,22 +214,20 @@
 	lv_obj_set_style_text_opa(ui->screen_Setting_Network_tileview_item_textarea_DNS, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_letter_space(ui->screen_Setting_Network_tileview_item_textarea_DNS, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_Setting_Network_tileview_item_textarea_DNS, LV_TEXT_ALIGN_RIGHT, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_color(ui->screen_Setting_Network_tileview_item_textarea_DNS, lv_color_hex(0x1c1c1c), LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_bg_opa(ui->screen_Setting_Network_tileview_item_textarea_DNS, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_border_width(ui->screen_Setting_Network_tileview_item_textarea_DNS, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_border_opa(ui->screen_Setting_Network_tileview_item_textarea_DNS, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_border_color(ui->screen_Setting_Network_tileview_item_textarea_DNS, lv_color_hex(0xe6e6e6), LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_border_side(ui->screen_Setting_Network_tileview_item_textarea_DNS, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_Setting_Network_tileview_item_textarea_DNS, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_pad_top(ui->screen_Setting_Network_tileview_item_textarea_DNS, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_pad_right(ui->screen_Setting_Network_tileview_item_textarea_DNS, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_pad_left(ui->screen_Setting_Network_tileview_item_textarea_DNS, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_Setting_Network_tileview_item_textarea_DNS, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_bg_opa(ui->screen_Setting_Network_tileview_item_textarea_DNS, 255, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
-	lv_obj_set_style_bg_color(ui->screen_Setting_Network_tileview_item_textarea_DNS, lv_color_hex(0x2195f6), LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_color(ui->screen_Setting_Network_tileview_item_textarea_DNS, lv_color_hex(0x1c1c1c), LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
 	lv_obj_set_style_bg_grad_dir(ui->screen_Setting_Network_tileview_item_textarea_DNS, LV_GRAD_DIR_NONE, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_Setting_Network_tileview_item_textarea_DNS, 0, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
-
-
+	
 
 	ui->screen_Setting_Network_Header = lv_label_create(ui->screen_Setting_Network);
 	lv_label_set_text(ui->screen_Setting_Network_Header, "Network");

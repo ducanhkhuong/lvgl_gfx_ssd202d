@@ -42,15 +42,13 @@
 	lv_obj_set_style_bg_grad_dir(ui->screen_Setting_HomeController_InputHC_textarea_InputIP, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_border_width(ui->screen_Setting_HomeController_InputHC_textarea_InputIP, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_border_opa(ui->screen_Setting_HomeController_InputHC_textarea_InputIP, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_border_color(ui->screen_Setting_HomeController_InputHC_textarea_InputIP, lv_color_hex(0xe6e6e6), LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_border_side(ui->screen_Setting_HomeController_InputHC_textarea_InputIP, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_Setting_HomeController_InputHC_textarea_InputIP, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_pad_top(ui->screen_Setting_HomeController_InputHC_textarea_InputIP, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_pad_right(ui->screen_Setting_HomeController_InputHC_textarea_InputIP, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_pad_left(ui->screen_Setting_HomeController_InputHC_textarea_InputIP, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_Setting_HomeController_InputHC_textarea_InputIP, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_bg_opa(ui->screen_Setting_HomeController_InputHC_textarea_InputIP, 255, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
-	lv_obj_set_style_bg_color(ui->screen_Setting_HomeController_InputHC_textarea_InputIP, lv_color_hex(0x2195f6), LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_color(ui->screen_Setting_HomeController_InputHC_textarea_InputIP, lv_color_hex(0x1c1c1c), LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
 	lv_obj_set_style_bg_grad_dir(ui->screen_Setting_HomeController_InputHC_textarea_InputIP, LV_GRAD_DIR_NONE, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_Setting_HomeController_InputHC_textarea_InputIP, 0, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
 
