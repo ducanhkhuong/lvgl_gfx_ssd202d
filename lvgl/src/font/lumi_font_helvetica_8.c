@@ -1,7 +1,7 @@
 /*******************************************************************************
  * Size: 8 px
  * Bpp: 8
- * Opts: --bpp 8 --size 8 --no-compress --font Helvetica.ttf --symbols abcdefghjklmnopqrstuvwxyzABCDĐEFGHJKLMNOPQRSTUVWXYZ0123456789.;:,
+ * Opts: --bpp 8 --size 8 --no-compress --font Helvetica.ttf --symbols abcdefghijklmnopqrstuvwxyzABCDĐEFGHIJKLMNOPQRSTUVWXYZ0123456789.;:,
 (*!?'){}[]\|"<>/@#$%^&*()-_=+`~ăâáàảãắằẳẵặấầẩậẫéèẻẽẹêếềểễệíìỉĩịóòỏõọôốồổỗộớờởỡợơúùủũụưứừửữựĂÂẮẰẲẶẴẤẦẨẬẪÊẾỀỂỄỆÉÈẺẸẼÔƠÓÒỎÕỌỐỒỔỘỖỚ
 ỜỢỞỢÚÙỦŨỤƯỨỪỮỰỬÍÌỈĨỊạ --range 32-127 --format lvgl -o lumi_font_helvetica_8.c
  ******************************************************************************/
