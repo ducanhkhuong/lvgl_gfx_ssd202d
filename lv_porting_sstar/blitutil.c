@@ -1,7 +1,7 @@
 
-#include "mi_common.h"
-#include "mi_gfx_datatype.h"
-#include "mi_gfx.h"
+#include "/home/ducanhkhuong/Config_ssd202x/project/release/include/mi_common.h"
+#include "/home/ducanhkhuong/Config_ssd202x/project/release/include/mi_gfx_datatype.h"
+#include "/home/ducanhkhuong/Config_ssd202x/project/release/include/mi_gfx.h"
 #include "blitutil.h"
 #include <unistd.h>
 

@@ -213,6 +213,72 @@ LV_FONT_DECLARE(lv_font_montserrat_46)
 LV_FONT_DECLARE(lv_font_montserrat_48)
 #endif
 
+//--------------FONT LUMI----------------
+#if LUMI_FONT_HELVETICA_8
+  LV_FONT_DECLARE(lumi_font_helvetica_8)
+#endif
+
+#if LUMI_FONT_HELVETICA_10
+  LV_FONT_DECLARE(lumi_font_helvetica_10)
+#endif
+
+#if LUMI_FONT_HELVETICA_12
+  LV_FONT_DECLARE(lumi_font_helvetica_12)
+#endif
+
+#if LUMI_FONT_HELVETICA_14
+  LV_FONT_DECLARE(lumi_font_helvetica_14)
+#endif
+
+#if LUMI_FONT_HELVETICA_16
+  LV_FONT_DECLARE(lumi_font_helvetica_16)
+#endif
+
+#if LUMI_FONT_HELVETICA_18
+  LV_FONT_DECLARE(lumi_font_helvetica_18)
+#endif
+
+#if LUMI_FONT_HELVETICA_20
+  LV_FONT_DECLARE(lumi_font_helvetica_20)
+#endif
+
+#if LUMI_FONT_HELVETICA_22
+  LV_FONT_DECLARE(lumi_font_helvetica_24)
+#endif
+
+#if LUMI_FONT_HELVETICA_26
+  LV_FONT_DECLARE(lumi_font_helvetica_26)
+#endif
+
+#if LUMI_FONT_HELVETICA_28
+  LV_FONT_DECLARE(lumi_font_helvetica_28)
+#endif
+
+#if LUMI_FONT_HELVETICA_30
+  LV_FONT_DECLARE(lumi_font_helvetica_30)
+#endif
+
+#if LUMI_FONT_HELVETICA_40
+  LV_FONT_DECLARE(lumi_font_helvetica_40)
+#endif
+
+#if LUMI_FONT_HELVETICA_46
+  LV_FONT_DECLARE(lumi_font_helvetica_46)
+#endif
+
+#if LUMI_FONT_HELVETICA_48
+  LV_FONT_DECLARE(lumi_font_helvetica_48)
+#endif
+
+#if LUMI_FONT_HELVETICA_60
+  LV_FONT_DECLARE(lumi_font_helvetica_60)
+#endif
+
+#if FONT_DUCANH_TEST_20
+  LV_FONT_DECLARE(font_ducanh_test_20)
+#endif
+//------------------------------------------
+
 #if LV_FONT_MONTSERRAT_12_SUBPX
 LV_FONT_DECLARE(lv_font_montserrat_12_subpx)
 #endif
@@ -220,6 +286,7 @@ LV_FONT_DECLARE(lv_font_montserrat_12_subpx)
 #if LV_FONT_MONTSERRAT_28_COMPRESSED
 LV_FONT_DECLARE(lv_font_montserrat_28_compressed)
 #endif
+
 
 #if LV_FONT_DEJAVU_16_PERSIAN_HEBREW
 LV_FONT_DECLARE(lv_font_dejavu_16_persian_hebrew)

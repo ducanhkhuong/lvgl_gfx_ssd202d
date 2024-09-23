@@ -5,7 +5,7 @@
 #ifndef _SSTAR_MEMORY_H
 #define _SSTAR_MEMORY_H
 
-#include "mi_common_datatype.h"
+#include "/home/ducanhkhuong/Config_ssd202x/project/release/include/mi_common_datatype.h"
 
 MI_PHY sstar_pool_va2pa(const void *ptr);
 void sstar_flush_cache();

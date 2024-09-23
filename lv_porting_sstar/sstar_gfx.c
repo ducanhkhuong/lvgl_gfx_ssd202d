@@ -9,13 +9,13 @@
 #include "lv_draw_img.h"
 #include "lv_draw_sw.h"
 
-#include "mi_sys.h"
+#include "/home/ducanhkhuong/Config_ssd202x/project/release/include/mi_sys.h"
 #include "sstar_memory.h"
 #include "sstar_fbdev.h"
 #include "sstar_gfx.h"
 
-#include "mi_gfx_datatype.h"
-#include "mi_gfx.h"
+#include "/home/ducanhkhuong/Config_ssd202x/project/release/include/mi_gfx_datatype.h"
+#include "/home/ducanhkhuong/Config_ssd202x/project/release/include/mi_gfx.h"
 #include "verify_gfx.h"
 
 #ifndef SSTAR_IMG_ARR_SIZE

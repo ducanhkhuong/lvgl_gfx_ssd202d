@@ -83,7 +83,8 @@ void lv_obj_set_tile(lv_obj_t * obj, lv_obj_t * tile_obj, lv_anim_enable_t anim_
     lv_tileview_t * tv = (lv_tileview_t *) obj;
     tv->tile_act = (lv_obj_t *)tile;
 
-    lv_obj_set_scroll_dir(obj, tile->dir);
+    lv_obj_set_scroll_dir(obj, tile->dir);//default
+    //lv_obj_set_scroll_dir(obj,LV_DIR_NONE);
     lv_obj_scroll_to(obj, tx, ty, anim_en);
 }
 
@@ -107,9 +108,32 @@ void lv_obj_set_tile_id(lv_obj_t * tv, uint32_t col_id, uint32_t row_id, lv_anim
             return;
         }
     }
-
     LV_LOG_WARN("No tile found with at (%d,%d) index", (int)col_id, (int)row_id);
 }
+//function copy
+void lv_obj_set_tile_id_copy(lv_obj_t * tv, uint32_t col_id, uint32_t row_id, lv_anim_enable_t anim_en)
+{
+    lv_obj_update_layout(tv);
+    lv_coord_t w = lv_obj_get_content_width(tv);
+    lv_coord_t h = lv_obj_get_content_height(tv);
+
+    lv_coord_t tx = col_id * w;
+    lv_coord_t ty = row_id * h;
+
+    uint32_t i;
+    for(i = 0; i < lv_obj_get_child_cnt(tv); i++) {
+        lv_obj_t * tile_obj = lv_obj_get_child(tv, i);
+        lv_coord_t x = lv_obj_get_x(tile_obj);
+        lv_coord_t y = lv_obj_get_y(tile_obj);
+        if(x == tx && y == ty) {
+            lv_obj_set_scroll_dir(tile_obj, LV_DIR_NONE);
+            lv_obj_set_tile(tv, tile_obj, anim_en);
+            return;
+        }
+    }
+    LV_LOG_WARN("No tile found with at (%d,%d) index", (int)col_id, (int)row_id);
+}
+
 
 lv_obj_t * lv_tileview_get_tile_act(lv_obj_t * obj)
 {

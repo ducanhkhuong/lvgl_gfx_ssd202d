@@ -1,0 +1,95 @@
+    //input HC
+	ui->screen_FirstBoot_HomeController_inputHC_Header = lv_label_create(ui->screen_FirstBoot_HomeController_inputHC);
+	lv_label_set_text(ui->screen_FirstBoot_HomeController_inputHC_Header, "Enter HC IP Address");
+	lv_label_set_long_mode(ui->screen_FirstBoot_HomeController_inputHC_Header, LV_LABEL_LONG_WRAP);
+	lv_obj_set_pos(ui->screen_FirstBoot_HomeController_inputHC_Header, 20, 33);
+	lv_obj_set_size(ui->screen_FirstBoot_HomeController_inputHC_Header, 680, 80);
+	lv_obj_set_style_border_width(ui->screen_FirstBoot_HomeController_inputHC_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_radius(ui->screen_FirstBoot_HomeController_inputHC_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_color(ui->screen_FirstBoot_HomeController_inputHC_Header, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_FirstBoot_HomeController_inputHC_Header, &lv_font_montserrat_48, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_opa(ui->screen_FirstBoot_HomeController_inputHC_Header, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_letter_space(ui->screen_FirstBoot_HomeController_inputHC_Header, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_line_space(ui->screen_FirstBoot_HomeController_inputHC_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_align(ui->screen_FirstBoot_HomeController_inputHC_Header, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_opa(ui->screen_FirstBoot_HomeController_inputHC_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_top(ui->screen_FirstBoot_HomeController_inputHC_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_right(ui->screen_FirstBoot_HomeController_inputHC_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_bottom(ui->screen_FirstBoot_HomeController_inputHC_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_left(ui->screen_FirstBoot_HomeController_inputHC_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_shadow_width(ui->screen_FirstBoot_HomeController_inputHC_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+
+	ui->screen_FirstBoot_HomeController_inputHC_btn_LEFT = lv_btn_create(ui->screen_FirstBoot_HomeController_inputHC);
+	ui->screen_FirstBoot_HomeController_inputHC_btn_LEFT_label = lv_label_create(ui->screen_FirstBoot_HomeController_inputHC_btn_LEFT);
+	lv_label_set_text(ui->screen_FirstBoot_HomeController_inputHC_btn_LEFT_label, ""LV_SYMBOL_LEFT"");
+	lv_label_set_long_mode(ui->screen_FirstBoot_HomeController_inputHC_btn_LEFT_label, LV_LABEL_LONG_WRAP);
+	lv_obj_align(ui->screen_FirstBoot_HomeController_inputHC_btn_LEFT_label, LV_ALIGN_CENTER, 0, 0);
+	lv_obj_set_style_pad_all(ui->screen_FirstBoot_HomeController_inputHC_btn_LEFT, 0, LV_STATE_DEFAULT);
+	lv_obj_set_width(ui->screen_FirstBoot_HomeController_inputHC_btn_LEFT_label, LV_PCT(100));
+	lv_obj_set_pos(ui->screen_FirstBoot_HomeController_inputHC_btn_LEFT, 10, 10);
+	lv_obj_set_size(ui->screen_FirstBoot_HomeController_inputHC_btn_LEFT, 72, 72);
+	lv_obj_set_style_bg_opa(ui->screen_FirstBoot_HomeController_inputHC_btn_LEFT, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_color(ui->screen_FirstBoot_HomeController_inputHC_btn_LEFT, lv_color_hex(0x1c1c1c), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_grad_dir(ui->screen_FirstBoot_HomeController_inputHC_btn_LEFT, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_border_width(ui->screen_FirstBoot_HomeController_inputHC_btn_LEFT, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_radius(ui->screen_FirstBoot_HomeController_inputHC_btn_LEFT, 50, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_shadow_width(ui->screen_FirstBoot_HomeController_inputHC_btn_LEFT, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_color(ui->screen_FirstBoot_HomeController_inputHC_btn_LEFT, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_FirstBoot_HomeController_inputHC_btn_LEFT, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_opa(ui->screen_FirstBoot_HomeController_inputHC_btn_LEFT, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_align(ui->screen_FirstBoot_HomeController_inputHC_btn_LEFT, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+	
+	ui->screen_FirstBoot_HomeController_inputHC_textarea_IP = lv_textarea_create(ui->screen_FirstBoot_HomeController_inputHC);
+	lv_textarea_set_text(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, "");
+	lv_textarea_set_placeholder_text(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, " Enter IP ");
+	//lv_textarea_set_password_bullet(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, "*");
+	lv_textarea_set_password_mode(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, false);
+	lv_textarea_set_one_line(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, true);
+	lv_textarea_set_accepted_chars(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, "0123456789.");
+	lv_textarea_set_max_length(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, 16);
+	#if LV_USE_KEYBOARD != 0 || LV_USE_ZH_KEYBOARD != 0
+		lv_obj_add_event_cb(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, ta_event_cb, LV_EVENT_ALL, ui->g_kb_screen);
+	#endif
+	lv_obj_set_pos(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, 20, 117);
+	lv_obj_set_size(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, 680, 60);
+	lv_obj_set_style_text_color(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_opa(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_letter_space(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_align(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_opa(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_color(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, lv_color_hex(0x1c1c1c), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_grad_dir(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_border_width(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_border_opa(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_border_side(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_shadow_width(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_top(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_right(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_left(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_radius(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_color(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, lv_color_hex(0x1c1c1c), LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_grad_dir(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, LV_GRAD_DIR_NONE, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
+	lv_obj_set_style_radius(ui->screen_FirstBoot_HomeController_inputHC_textarea_IP, 0, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
+
+	ui->screen_FirstBoot_HomeController_inputHC_btn_Done = lv_btn_create(ui->screen_FirstBoot_HomeController_inputHC);
+	ui->screen_FirstBoot_HomeController_inputHC_btn_Done_label = lv_label_create(ui->screen_FirstBoot_HomeController_inputHC_btn_Done);
+	lv_label_set_text(ui->screen_FirstBoot_HomeController_inputHC_btn_Done_label, "Done");
+	lv_label_set_long_mode(ui->screen_FirstBoot_HomeController_inputHC_btn_Done_label, LV_LABEL_LONG_WRAP);
+	lv_obj_align(ui->screen_FirstBoot_HomeController_inputHC_btn_Done_label, LV_ALIGN_CENTER, 0, 0);
+	lv_obj_set_style_pad_all(ui->screen_FirstBoot_HomeController_inputHC_btn_Done, 0, LV_STATE_DEFAULT);
+	lv_obj_set_width(ui->screen_FirstBoot_HomeController_inputHC_btn_Done_label, LV_PCT(100));
+	lv_obj_set_pos(ui->screen_FirstBoot_HomeController_inputHC_btn_Done, 20, 607);
+	lv_obj_set_size(ui->screen_FirstBoot_HomeController_inputHC_btn_Done, 680, 92);
+	lv_obj_set_style_bg_opa(ui->screen_FirstBoot_HomeController_inputHC_btn_Done, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_color(ui->screen_FirstBoot_HomeController_inputHC_btn_Done, lv_color_hex(0x1c1c1c), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_grad_dir(ui->screen_FirstBoot_HomeController_inputHC_btn_Done, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_border_width(ui->screen_FirstBoot_HomeController_inputHC_btn_Done, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_radius(ui->screen_FirstBoot_HomeController_inputHC_btn_Done, 50, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_shadow_width(ui->screen_FirstBoot_HomeController_inputHC_btn_Done, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_color(ui->screen_FirstBoot_HomeController_inputHC_btn_Done, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_FirstBoot_HomeController_inputHC_btn_Done, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_opa(ui->screen_FirstBoot_HomeController_inputHC_btn_Done, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_align(ui->screen_FirstBoot_HomeController_inputHC_btn_Done, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);

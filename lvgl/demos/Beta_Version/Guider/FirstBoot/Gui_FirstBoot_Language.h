@@ -1,0 +1,104 @@
+
+	ui->screen_FirstBoot_Language_Header = lv_label_create(ui->screen_FirstBoot_Language);
+	lv_label_set_text(ui->screen_FirstBoot_Language_Header, "Language");
+	lv_label_set_long_mode(ui->screen_FirstBoot_Language_Header, LV_LABEL_LONG_WRAP);
+	lv_obj_set_pos(ui->screen_FirstBoot_Language_Header, 20, 33);
+	lv_obj_set_size(ui->screen_FirstBoot_Language_Header, 680, 80);
+	lv_obj_set_style_border_width(ui->screen_FirstBoot_Language_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_radius(ui->screen_FirstBoot_Language_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_color(ui->screen_FirstBoot_Language_Header, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_FirstBoot_Language_Header, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_opa(ui->screen_FirstBoot_Language_Header, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_letter_space(ui->screen_FirstBoot_Language_Header, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_line_space(ui->screen_FirstBoot_Language_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_align(ui->screen_FirstBoot_Language_Header, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_opa(ui->screen_FirstBoot_Language_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_top(ui->screen_FirstBoot_Language_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_right(ui->screen_FirstBoot_Language_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_bottom(ui->screen_FirstBoot_Language_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_left(ui->screen_FirstBoot_Language_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_shadow_width(ui->screen_FirstBoot_Language_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+
+	ui->screen_FirstBoot_Language_btn_TiengViet = lv_btn_create(ui->screen_FirstBoot_Language);
+	ui->screen_FirstBoot_Language_btn_TiengViet_label = lv_label_create(ui->screen_FirstBoot_Language_btn_TiengViet);
+	lv_label_set_text(ui->screen_FirstBoot_Language_btn_TiengViet_label, "Tiếng Việt");
+	lv_label_set_long_mode(ui->screen_FirstBoot_Language_btn_TiengViet_label, LV_LABEL_LONG_WRAP);
+	lv_obj_align(ui->screen_FirstBoot_Language_btn_TiengViet_label, LV_ALIGN_CENTER, 0, 0);
+	lv_obj_set_style_pad_all(ui->screen_FirstBoot_Language_btn_TiengViet, 0, LV_STATE_DEFAULT);
+	lv_obj_set_width(ui->screen_FirstBoot_Language_btn_TiengViet_label, LV_PCT(100));
+	lv_obj_set_pos(ui->screen_FirstBoot_Language_btn_TiengViet, 20, 118);
+	lv_obj_set_size(ui->screen_FirstBoot_Language_btn_TiengViet, 680, 104);
+	lv_obj_set_style_bg_opa(ui->screen_FirstBoot_Language_btn_TiengViet, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_color(ui->screen_FirstBoot_Language_btn_TiengViet, lv_color_hex(0x1c1c1c), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_grad_dir(ui->screen_FirstBoot_Language_btn_TiengViet, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_border_width(ui->screen_FirstBoot_Language_btn_TiengViet, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_radius(ui->screen_FirstBoot_Language_btn_TiengViet, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_shadow_width(ui->screen_FirstBoot_Language_btn_TiengViet, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_color(ui->screen_FirstBoot_Language_btn_TiengViet, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_FirstBoot_Language_btn_TiengViet, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_opa(ui->screen_FirstBoot_Language_btn_TiengViet, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_align(ui->screen_FirstBoot_Language_btn_TiengViet, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+
+	ui->screen_FirstBoot_Language_btn_English = lv_btn_create(ui->screen_FirstBoot_Language);
+	ui->screen_FirstBoot_Language_btn_English_label = lv_label_create(ui->screen_FirstBoot_Language_btn_English);
+	lv_label_set_text(ui->screen_FirstBoot_Language_btn_English_label, "English");
+	lv_label_set_long_mode(ui->screen_FirstBoot_Language_btn_English_label, LV_LABEL_LONG_WRAP);
+	lv_obj_align(ui->screen_FirstBoot_Language_btn_English_label, LV_ALIGN_CENTER, 0, 0);
+	lv_obj_set_style_pad_all(ui->screen_FirstBoot_Language_btn_English, 0, LV_STATE_DEFAULT);
+	lv_obj_set_width(ui->screen_FirstBoot_Language_btn_English_label, LV_PCT(100));
+	lv_obj_set_pos(ui->screen_FirstBoot_Language_btn_English, 20, 234);
+	lv_obj_set_size(ui->screen_FirstBoot_Language_btn_English, 680, 104);
+	lv_obj_set_style_bg_opa(ui->screen_FirstBoot_Language_btn_English, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_color(ui->screen_FirstBoot_Language_btn_English, lv_color_hex(0x1c1c1c), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_grad_dir(ui->screen_FirstBoot_Language_btn_English, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_border_width(ui->screen_FirstBoot_Language_btn_English, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_radius(ui->screen_FirstBoot_Language_btn_English, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_shadow_width(ui->screen_FirstBoot_Language_btn_English, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_color(ui->screen_FirstBoot_Language_btn_English, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_FirstBoot_Language_btn_English, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_opa(ui->screen_FirstBoot_Language_btn_English, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_align(ui->screen_FirstBoot_Language_btn_English, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+
+	ui->screen_FirstBoot_Language_btn_Previous = lv_btn_create(ui->screen_FirstBoot_Language);
+	ui->screen_FirstBoot_Language_btn_Previous_label = lv_label_create(ui->screen_FirstBoot_Language_btn_Previous);
+	lv_label_set_text(ui->screen_FirstBoot_Language_btn_Previous_label, "Previous");
+	lv_label_set_long_mode(ui->screen_FirstBoot_Language_btn_Previous_label, LV_LABEL_LONG_WRAP);
+	lv_obj_align(ui->screen_FirstBoot_Language_btn_Previous_label, LV_ALIGN_CENTER, 0, 0);
+	lv_obj_set_style_pad_all(ui->screen_FirstBoot_Language_btn_Previous, 0, LV_STATE_DEFAULT);
+	lv_obj_set_width(ui->screen_FirstBoot_Language_btn_Previous_label, LV_PCT(100));
+	lv_obj_set_pos(ui->screen_FirstBoot_Language_btn_Previous, 20, 607);
+	lv_obj_set_size(ui->screen_FirstBoot_Language_btn_Previous, 330, 92);
+	lv_obj_set_style_bg_opa(ui->screen_FirstBoot_Language_btn_Previous, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_color(ui->screen_FirstBoot_Language_btn_Previous, lv_color_hex(0x1c1c1c), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_grad_dir(ui->screen_FirstBoot_Language_btn_Previous, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_border_width(ui->screen_FirstBoot_Language_btn_Previous, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_radius(ui->screen_FirstBoot_Language_btn_Previous, 92, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_shadow_width(ui->screen_FirstBoot_Language_btn_Previous, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_color(ui->screen_FirstBoot_Language_btn_Previous, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_FirstBoot_Language_btn_Previous, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_opa(ui->screen_FirstBoot_Language_btn_Previous, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_align(ui->screen_FirstBoot_Language_btn_Previous, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+	
+	ui->screen_FirstBoot_Language_btn_Next = lv_btn_create(ui->screen_FirstBoot_Language);
+	ui->screen_FirstBoot_Language_btn_Next_label = lv_label_create(ui->screen_FirstBoot_Language_btn_Next);
+	lv_label_set_text(ui->screen_FirstBoot_Language_btn_Next_label, "Next");
+	lv_label_set_long_mode(ui->screen_FirstBoot_Language_btn_Next_label, LV_LABEL_LONG_WRAP);
+	lv_obj_align(ui->screen_FirstBoot_Language_btn_Next_label, LV_ALIGN_CENTER, 0, 0);
+	lv_obj_set_style_pad_all(ui->screen_FirstBoot_Language_btn_Next, 0, LV_STATE_DEFAULT);
+	lv_obj_set_width(ui->screen_FirstBoot_Language_btn_Next_label, LV_PCT(100));
+	lv_obj_set_pos(ui->screen_FirstBoot_Language_btn_Next, 370, 607);
+	lv_obj_set_size(ui->screen_FirstBoot_Language_btn_Next, 330, 92);
+	lv_obj_set_style_bg_opa(ui->screen_FirstBoot_Language_btn_Next, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_color(ui->screen_FirstBoot_Language_btn_Next, lv_color_hex(0x1c1c1c), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_grad_dir(ui->screen_FirstBoot_Language_btn_Next, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_border_width(ui->screen_FirstBoot_Language_btn_Next, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_radius(ui->screen_FirstBoot_Language_btn_Next, 92, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_shadow_width(ui->screen_FirstBoot_Language_btn_Next, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_color(ui->screen_FirstBoot_Language_btn_Next, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_FirstBoot_Language_btn_Next, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_opa(ui->screen_FirstBoot_Language_btn_Next, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_align(ui->screen_FirstBoot_Language_btn_Next, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);

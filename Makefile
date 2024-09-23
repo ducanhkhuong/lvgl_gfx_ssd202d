@@ -3,7 +3,7 @@
 #
 #CC := gcc
 #CC := aarch64-linux-gnu-gcc
-CC := arm-linux-gnueabihf-gcc
+CC :=  /home/ducanhkhuong/SSD202d/opt/ext-toolchain/bin/arm-linux-gnueabihf-gcc
 LVGL_DIR ?= .
 LVGL_DIR_NAME ?= lvgl
 
@@ -16,25 +16,29 @@ LVGL_DIR_NAME ?= lvgl
 #-Wno-unused-value -Wno-unused-parameter 
 OPTIMIZATION ?= -O3 -mfpu=neon #-g -fno-omit-frame-pointer 
 
-ALKAID_PROJ := ../project
 
-include $(ALKAID_PROJ)/configs/current.configs
 
 CFLAGS ?= -I$(LVGL_DIR)/ $(DEFINES) $(WARNINGS) $(OPTIMIZATION)
 CFLAGS += -I$(LVGL_DIR)/$(LVGL_DIR_NAME)
 CFLAGS += -I$(LVGL_DIR)/lv_drivers/indev/
-CFLAGS += -I$(LVGL_DIR)/lvgl/demos/
 CFLAGS += -I$(LVGL_DIR)/lv_porting_sstar/
 CFLAGS += -I$(LVGL_DIR)/squareline_proj
+CFLAGS += -I$(LVGL_DIR)/lvgl/demos/
+
 
 CFLAGS += -I$(PROJ_ROOT)/release/include/
 
 CFLAGS += -DCHIP_$(CHIP)
 
+
+
+ALKAID_PROJ := /home/ducanhkhuong/Config_ssd202x/project
+include $(ALKAID_PROJ)/configs/current.configs
+
 ifeq ($(CHIP),i2m)
-LDFLAGS += -L $(ALKAID_PROJ)/release/$(PRODUCT)/$(CHIP)/common/$(TOOLCHAIN)/$(TOOLCHAIN_VERSION)/mi_libs/dynamic
-LDFLAGS += -L $(ALKAID_PROJ)/release/$(PRODUCT)/$(CHIP)/common/$(TOOLCHAIN)/$(TOOLCHAIN_VERSION)/ex_libs/dynamic
-CFLAGS += -I./lv_porting_sstar/panel
+LDFLAGS += -L $(ALKAID_PROJ)/release/nvr/i2m/common/glibc/8.2.1/mi_libs/dynamic
+LDFLAGS += -L $(ALKAID_PROJ)/release/nvr/i2m/common/glibc/8.2.1/ex_libs/dynamic
+#CFLAGS += -I./lv_porting_sstar/panel
 else
 LDFLAGS += -L $(ALKAID_PROJ)/release/chip/$(CHIP)/$(PRODUCT)/common/$(TOOLCHAIN)/$(TOOLCHAIN_VERSION)/mi_libs/dynamic
 LDFLAGS += -L $(ALKAID_PROJ)/release/chip/$(CHIP)/$(PRODUCT)/common/$(TOOLCHAIN)/$(TOOLCHAIN_VERSION)/ex_libs/dynamic
@@ -43,7 +47,6 @@ endif
 
 LDFLAGS += -lpthread
 LDFLAGS += -lcam_os_wrapper -lcam_fs_wrapper -lmi_sys -lmi_common -lmi_panel -lmi_disp -lmi_gfx -lm 
-
 BIN ?= demo
 
 #Collect the files to compile

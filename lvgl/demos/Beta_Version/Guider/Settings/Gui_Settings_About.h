@@ -1,0 +1,250 @@
+	ui->screen_Setting_About_Header = lv_label_create(ui->screen_Setting_About);
+	lv_label_set_text(ui->screen_Setting_About_Header, "About");
+	lv_label_set_long_mode(ui->screen_Setting_About_Header, LV_LABEL_LONG_WRAP);
+	lv_obj_set_pos(ui->screen_Setting_About_Header, 20, 33);
+	lv_obj_set_size(ui->screen_Setting_About_Header, 680, 80);
+	lv_obj_set_style_border_width(ui->screen_Setting_About_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_radius(ui->screen_Setting_About_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_color(ui->screen_Setting_About_Header, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_About_Header, &lv_font_montserrat_48, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_opa(ui->screen_Setting_About_Header, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_letter_space(ui->screen_Setting_About_Header, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_line_space(ui->screen_Setting_About_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_align(ui->screen_Setting_About_Header, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_opa(ui->screen_Setting_About_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_top(ui->screen_Setting_About_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_right(ui->screen_Setting_About_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_bottom(ui->screen_Setting_About_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_left(ui->screen_Setting_About_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_shadow_width(ui->screen_Setting_About_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+
+	ui->screen_Setting_About_btn_Return = lv_btn_create(ui->screen_Setting_About);
+	ui->screen_Setting_About_btn_Return_label = lv_label_create(ui->screen_Setting_About_btn_Return);
+	lv_label_set_text(ui->screen_Setting_About_btn_Return_label, "" LV_SYMBOL_LEFT "");
+	lv_label_set_long_mode(ui->screen_Setting_About_btn_Return_label, LV_LABEL_LONG_WRAP);
+	lv_obj_align(ui->screen_Setting_About_btn_Return_label, LV_ALIGN_CENTER, 0, 0);
+	lv_obj_set_style_pad_all(ui->screen_Setting_About_btn_Return, 0, LV_STATE_DEFAULT);
+	lv_obj_set_width(ui->screen_Setting_About_btn_Return_label, LV_PCT(100));
+	lv_obj_set_pos(ui->screen_Setting_About_btn_Return, 27, 26);
+	lv_obj_set_size(ui->screen_Setting_About_btn_Return, 72, 72);
+	lv_obj_set_style_bg_opa(ui->screen_Setting_About_btn_Return, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_color(ui->screen_Setting_About_btn_Return, lv_color_hex(0x1c1c1c), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_grad_dir(ui->screen_Setting_About_btn_Return, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_border_width(ui->screen_Setting_About_btn_Return, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_radius(ui->screen_Setting_About_btn_Return, 72, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_shadow_width(ui->screen_Setting_About_btn_Return, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_color(ui->screen_Setting_About_btn_Return, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_About_btn_Return, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_opa(ui->screen_Setting_About_btn_Return, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_align(ui->screen_Setting_About_btn_Return, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+
+	ui->screen_btn_85 = lv_btn_create(ui->screen_Setting_About);
+	ui->screen_btn_85_label = lv_label_create(ui->screen_btn_85);
+	lv_label_set_text(ui->screen_btn_85_label, "");
+	lv_label_set_long_mode(ui->screen_btn_85_label, LV_LABEL_LONG_WRAP);
+	lv_obj_align(ui->screen_btn_85_label, LV_ALIGN_CENTER, 0, 0);
+	lv_obj_set_style_pad_all(ui->screen_btn_85, 0, LV_STATE_DEFAULT);
+	lv_obj_set_width(ui->screen_btn_85_label, LV_PCT(100));
+	lv_obj_set_pos(ui->screen_btn_85, 20, 247);
+	lv_obj_set_size(ui->screen_btn_85, 680, 208);
+	lv_obj_set_style_bg_opa(ui->screen_btn_85, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_color(ui->screen_btn_85, lv_color_hex(0x1C1C1C), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_grad_dir(ui->screen_btn_85, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_border_width(ui->screen_btn_85, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_radius(ui->screen_btn_85, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_shadow_width(ui->screen_btn_85, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_color(ui->screen_btn_85, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_btn_85, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_opa(ui->screen_btn_85, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_align(ui->screen_btn_85, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+
+	ui->screen_btn_86 = lv_btn_create(ui->screen_Setting_About);
+	ui->screen_btn_86_label = lv_label_create(ui->screen_btn_86);
+	lv_label_set_text(ui->screen_btn_86_label, "");
+	lv_label_set_long_mode(ui->screen_btn_86_label, LV_LABEL_LONG_WRAP);
+	lv_obj_align(ui->screen_btn_86_label, LV_ALIGN_CENTER, 0, 0);
+	lv_obj_set_style_pad_all(ui->screen_btn_86, 0, LV_STATE_DEFAULT);
+	lv_obj_set_width(ui->screen_btn_86_label, LV_PCT(100));
+	lv_obj_set_pos(ui->screen_btn_86, 20, 479);
+	lv_obj_set_size(ui->screen_btn_86, 680, 208);
+	lv_obj_set_style_bg_opa(ui->screen_btn_86, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_color(ui->screen_btn_86, lv_color_hex(0x1C1C1C), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_grad_dir(ui->screen_btn_86, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_border_width(ui->screen_btn_86, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_radius(ui->screen_btn_86, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_shadow_width(ui->screen_btn_86, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_color(ui->screen_btn_86, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_btn_86, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_opa(ui->screen_btn_86, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_align(ui->screen_btn_86, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+
+	ui->screen_btn_87 = lv_btn_create(ui->screen_Setting_About);
+	ui->screen_btn_87_label = lv_label_create(ui->screen_btn_87);
+	lv_label_set_text(ui->screen_btn_87_label, "  MAC");
+	lv_label_set_long_mode(ui->screen_btn_87_label, LV_LABEL_LONG_WRAP);
+	lv_obj_align(ui->screen_btn_87_label, LV_ALIGN_LEFT_MID, 0, 0);
+	lv_obj_set_style_pad_all(ui->screen_btn_87, 0, LV_STATE_DEFAULT);
+	lv_obj_set_width(ui->screen_btn_87_label, LV_PCT(100));
+	lv_obj_set_pos(ui->screen_btn_87, 20, 126);
+	lv_obj_set_size(ui->screen_btn_87, 680, 104);
+	lv_obj_set_style_bg_opa(ui->screen_btn_87, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_color(ui->screen_btn_87, lv_color_hex(0x1C1C1C), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_grad_dir(ui->screen_btn_87, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_border_width(ui->screen_btn_87, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_radius(ui->screen_btn_87, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_shadow_width(ui->screen_btn_87, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_color(ui->screen_btn_87, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_btn_87, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_opa(ui->screen_btn_87, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_align(ui->screen_btn_87, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+
+	ui->screen_Setting_About_label_MAC = lv_label_create(ui->screen_Setting_About);
+	lv_label_set_text(ui->screen_Setting_About_label_MAC, "48:b0:2d:2e:65:25");
+	lv_label_set_long_mode(ui->screen_Setting_About_label_MAC, LV_LABEL_LONG_WRAP);
+	lv_obj_set_pos(ui->screen_Setting_About_label_MAC, 157, 158);
+	lv_obj_set_size(ui->screen_Setting_About_label_MAC, 516, 48);
+	lv_obj_set_style_border_width(ui->screen_Setting_About_label_MAC, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_radius(ui->screen_Setting_About_label_MAC, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_color(ui->screen_Setting_About_label_MAC, lv_color_hex(0xacacac), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_About_label_MAC, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_opa(ui->screen_Setting_About_label_MAC, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_letter_space(ui->screen_Setting_About_label_MAC, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_line_space(ui->screen_Setting_About_label_MAC, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_align(ui->screen_Setting_About_label_MAC, LV_TEXT_ALIGN_RIGHT, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_opa(ui->screen_Setting_About_label_MAC, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_top(ui->screen_Setting_About_label_MAC, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_right(ui->screen_Setting_About_label_MAC, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_bottom(ui->screen_Setting_About_label_MAC, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_left(ui->screen_Setting_About_label_MAC, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_shadow_width(ui->screen_Setting_About_label_MAC, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+
+	ui->screen_line_4 = lv_line_create(ui->screen_Setting_About);
+	static lv_point_t screen_line_4[] ={{675, 0},{0, 0},};
+	lv_line_set_points(ui->screen_line_4, screen_line_4, 2);
+	lv_obj_set_pos(ui->screen_line_4, 24, 351);
+	lv_obj_set_size(ui->screen_line_4, 672, 18);
+	lv_obj_set_style_line_width(ui->screen_line_4, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_line_color(ui->screen_line_4, lv_color_hex(0x757575), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_line_opa(ui->screen_line_4, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_line_rounded(ui->screen_line_4, true, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+
+	ui->screen_line_5 = lv_line_create(ui->screen_Setting_About);
+	static lv_point_t screen_line_5[] ={{675, 0},{0, 0},};
+	lv_line_set_points(ui->screen_line_5, screen_line_5, 2);
+	lv_obj_set_pos(ui->screen_line_5, 24, 587);
+	lv_obj_set_size(ui->screen_line_5, 672, 18);
+	lv_obj_set_style_line_width(ui->screen_line_5, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_line_color(ui->screen_line_5, lv_color_hex(0x757575), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_line_opa(ui->screen_line_5, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_line_rounded(ui->screen_line_5, true, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+
+	ui->screen_label_45 = lv_label_create(ui->screen_Setting_About);
+	lv_label_set_text(ui->screen_label_45, "Version");
+	lv_label_set_long_mode(ui->screen_label_45, LV_LABEL_LONG_WRAP);
+	lv_obj_set_pos(ui->screen_label_45, 37, 279);
+	lv_obj_set_style_border_width(ui->screen_label_45, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_radius(ui->screen_label_45, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_color(ui->screen_label_45, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_label_45, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_opa(ui->screen_label_45, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_letter_space(ui->screen_label_45, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_line_space(ui->screen_label_45, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_align(ui->screen_label_45, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_opa(ui->screen_label_45, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_top(ui->screen_label_45, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_right(ui->screen_label_45, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_bottom(ui->screen_label_45, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_left(ui->screen_label_45, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_shadow_width(ui->screen_label_45, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+
+	ui->screen_Setting_About_label_Version = lv_label_create(ui->screen_Setting_About);
+	lv_label_set_text(ui->screen_Setting_About_label_Version, "1.0.1");
+	lv_label_set_long_mode(ui->screen_Setting_About_label_Version, LV_LABEL_LONG_WRAP);
+	lv_obj_set_pos(ui->screen_Setting_About_label_Version, 234, 279);
+	lv_obj_set_size(ui->screen_Setting_About_label_Version, 439, 48);
+	lv_obj_set_style_border_width(ui->screen_Setting_About_label_Version, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_radius(ui->screen_Setting_About_label_Version, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_color(ui->screen_Setting_About_label_Version, lv_color_hex(0xacacac), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_About_label_Version, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_opa(ui->screen_Setting_About_label_Version, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_letter_space(ui->screen_Setting_About_label_Version, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_line_space(ui->screen_Setting_About_label_Version, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_align(ui->screen_Setting_About_label_Version, LV_TEXT_ALIGN_RIGHT, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_opa(ui->screen_Setting_About_label_Version, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_top(ui->screen_Setting_About_label_Version, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_right(ui->screen_Setting_About_label_Version, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_bottom(ui->screen_Setting_About_label_Version, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_left(ui->screen_Setting_About_label_Version, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_shadow_width(ui->screen_Setting_About_label_Version, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+
+	ui->screen_Setting_About_label_Checkforupdate = lv_label_create(ui->screen_Setting_About);
+	lv_label_set_text(ui->screen_Setting_About_label_Checkforupdate, "Check for update");
+	lv_label_set_long_mode(ui->screen_Setting_About_label_Checkforupdate, LV_LABEL_LONG_WRAP);
+	lv_obj_set_pos(ui->screen_Setting_About_label_Checkforupdate, 37, 382);
+	lv_obj_set_size(ui->screen_Setting_About_label_Checkforupdate, 397, 48);
+	lv_obj_set_style_border_width(ui->screen_Setting_About_label_Checkforupdate, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_radius(ui->screen_Setting_About_label_Checkforupdate, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_color(ui->screen_Setting_About_label_Checkforupdate, lv_color_hex(0x2fDA64), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_About_label_Checkforupdate, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_opa(ui->screen_Setting_About_label_Checkforupdate, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_letter_space(ui->screen_Setting_About_label_Checkforupdate, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_line_space(ui->screen_Setting_About_label_Checkforupdate, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_align(ui->screen_Setting_About_label_Checkforupdate, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_opa(ui->screen_Setting_About_label_Checkforupdate, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_top(ui->screen_Setting_About_label_Checkforupdate, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_right(ui->screen_Setting_About_label_Checkforupdate, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_bottom(ui->screen_Setting_About_label_Checkforupdate, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_left(ui->screen_Setting_About_label_Checkforupdate, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_shadow_width(ui->screen_Setting_About_label_Checkforupdate, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+
+	ui->screen_Setting_About_label_Reboot = lv_label_create(ui->screen_Setting_About);
+	lv_label_set_text(ui->screen_Setting_About_label_Reboot, "Reboot");
+	lv_label_set_long_mode(ui->screen_Setting_About_label_Reboot, LV_LABEL_LONG_WRAP);
+	lv_obj_set_pos(ui->screen_Setting_About_label_Reboot, 37, 516);
+	lv_obj_set_size(ui->screen_Setting_About_label_Reboot, 397, 48);
+	lv_obj_set_style_border_width(ui->screen_Setting_About_label_Reboot, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_radius(ui->screen_Setting_About_label_Reboot, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_color(ui->screen_Setting_About_label_Reboot, lv_color_hex(0xff0000), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_About_label_Reboot, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_opa(ui->screen_Setting_About_label_Reboot, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_letter_space(ui->screen_Setting_About_label_Reboot, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_line_space(ui->screen_Setting_About_label_Reboot, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_align(ui->screen_Setting_About_label_Reboot, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_opa(ui->screen_Setting_About_label_Reboot, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_top(ui->screen_Setting_About_label_Reboot, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_right(ui->screen_Setting_About_label_Reboot, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_bottom(ui->screen_Setting_About_label_Reboot, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_left(ui->screen_Setting_About_label_Reboot, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_shadow_width(ui->screen_Setting_About_label_Reboot, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+
+	ui->screen_Setting_About_label_Resetfactory = lv_label_create(ui->screen_Setting_About);
+	lv_label_set_text(ui->screen_Setting_About_label_Resetfactory, "Reset factory");
+	lv_label_set_long_mode(ui->screen_Setting_About_label_Resetfactory, LV_LABEL_LONG_WRAP);
+	lv_obj_set_pos(ui->screen_Setting_About_label_Resetfactory, 37, 615);
+	lv_obj_set_size(ui->screen_Setting_About_label_Resetfactory, 397, 48);
+	lv_obj_set_style_border_width(ui->screen_Setting_About_label_Resetfactory, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_radius(ui->screen_Setting_About_label_Resetfactory, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_color(ui->screen_Setting_About_label_Resetfactory, lv_color_hex(0xff0000), LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_About_label_Resetfactory, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_opa(ui->screen_Setting_About_label_Resetfactory, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_letter_space(ui->screen_Setting_About_label_Resetfactory, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_line_space(ui->screen_Setting_About_label_Resetfactory, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_align(ui->screen_Setting_About_label_Resetfactory, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_bg_opa(ui->screen_Setting_About_label_Resetfactory, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_top(ui->screen_Setting_About_label_Resetfactory, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_right(ui->screen_Setting_About_label_Resetfactory, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_bottom(ui->screen_Setting_About_label_Resetfactory, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_pad_left(ui->screen_Setting_About_label_Resetfactory, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_shadow_width(ui->screen_Setting_About_label_Resetfactory, 0, LV_PART_MAIN|LV_STATE_DEFAULT);

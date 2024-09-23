@@ -1,4 +1,4 @@
-#include "mi_gfx_datatype.h"
+#include "/home/ducanhkhuong/Config_ssd202x/project/release/include/mi_gfx_datatype.h"
 
 #define RECTW(r) (r.right-r.left)
 #define RECTH(r) (r.bottom-r.top)

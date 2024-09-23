@@ -5,8 +5,8 @@
 #include <string.h>
 #include <errno.h>
 
-#include <mi_sys.h>
-#include <mi_sys_datatype.h>
+#include </home/ducanhkhuong/Config_ssd202x/project/release/include/mi_sys.h>
+#include </home/ducanhkhuong/Config_ssd202x/project/release/include/mi_sys_datatype.h>
 
 
 #include "verify_gfx.h"

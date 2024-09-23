@@ -6,8 +6,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "mi_sys_datatype.h"
-#include "mi_sys.h"
+#include "/home/ducanhkhuong/Config_ssd202x/project/release/include/mi_sys_datatype.h"
+#include "/home/ducanhkhuong/Config_ssd202x/project/release/include/mi_sys.h"
 
 #include "sstar_memory.h"
 

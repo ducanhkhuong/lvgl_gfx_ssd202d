@@ -91,6 +91,7 @@ bool lv_is_initialized(void)
 
 void lv_init(void)
 {
+    printf("lv_init\n");
     /*Do nothing if already initialized*/
     if(lv_initialized) {
         LV_LOG_WARN("lv_init: already inited");

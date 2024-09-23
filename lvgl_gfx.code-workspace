@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"fbdev.h": "c",
+			"gui_guider.h": "c",
+			"lvgl.h": "c",
+			"lv_demo_music_list.h": "c",
+			"lv_demo_music_main.h": "c",
+			"lv_demo_music.h": "c",
+			"lv_demos.h": "c",
+			"time.h": "c",
+			"lv_demo_benchmark.h": "c",
+			"stdbool.h": "c",
+			"stddef.h": "c",
+			"stdint.h": "c",
+			"lv_conf_internal.h": "c",
+			"lv_area.h": "c",
+			"lv_symbol_def.h": "c"
+		}
+	}
+}

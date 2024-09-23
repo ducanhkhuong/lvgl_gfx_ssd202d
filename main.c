@@ -1,23 +1,21 @@
-/*
- * test.c
- */
+// /*
+//  * test.c
+//  */
 
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
 #include <pthread.h>
-#include "lv_obj.h"
+#include "src/core/lv_obj.h"
 #include "sstar_port.h"
-#include "lv_label.h"
-#include "lv_disp.h"
-#include "lv_style.h"
+#include "src/widgets/lv_label.h"
+#include "src/core/lv_disp.h"
+#include "src/misc/lv_style.h"
 #include "lv_demos.h"
 #include <sys/time.h>
-
-#include "widgets/lv_demo_widgets.h"
 #include "music/lv_demo_music.h"
-#include "benchmark/lv_demo_benchmark.h"
-//#include "ui.h"
+#include "Beta_Version/gui_guider.h" 
+
 
 
 #define PATH_IMAGE	"/customer/"
@@ -47,6 +45,10 @@ unsigned int _GetTime0()
     }
     return ms;
 }
+
+lv_style_t  style;
+lv_ui guider_ui;
+
 int main(int argc, char *argv[])
 {
 	char test_path[1024] = { 0 };
@@ -56,27 +58,13 @@ int main(int argc, char *argv[])
         return -1;
     }
 
-    if (0 == strcmp(argv[1], "a")) {
+    if (0 == strcmp(argv[1], "music")) {
         lv_demo_music();
-    } else if (0 == strcmp(argv[1], "b")) {
-        lv_demo_widgets();
-    } else if (0 == strcmp(argv[1], "c")) {
-        lv_demo_benchmark();
-    } else if (0 == strcmp(argv[1], "d")) {
-		lv_example_png_1();
-		lv_example_gif_1();
-		//lv_example_qrcode_1();
-		const char * data = "Hello world";
-
-		/*Create a 100x100 QR code*/
-		lv_obj_t * qr = lv_qrcode_create(lv_scr_act(), 200, lv_color_hex3(0x33f), lv_color_hex3(0xeef));
-
-		/*Set data*/
-		lv_qrcode_update(qr, data, strlen(data));
-		
-        //ui_init();
+    }else if(0 == strcmp(argv[1], "beta")){
+        ui_init_style(&style);
+        init_scr_del_flag(&guider_ui);
+        setup_ui(&guider_ui);
     }
-
     pthread_create(&pt, NULL, tick_thread, NULL);
     while(1) {
         unsigned int curr = _GetTime0();

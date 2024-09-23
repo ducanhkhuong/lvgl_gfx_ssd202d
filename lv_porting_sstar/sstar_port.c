@@ -156,7 +156,7 @@ int sstar_lv_init(void)
     if (0 != sstar_fbdev_init()) {
         goto ERR_FBDEV_INIT;
     }
-    if (0 != sstar_disp_init(0, "ttl", 1024, 600)) {
+    if (0 != sstar_disp_init(0, "ttl", 720, 720)) {
         goto ERR_DISP_INIT;
     }
     if (0 != sstar_gfx_init()) {

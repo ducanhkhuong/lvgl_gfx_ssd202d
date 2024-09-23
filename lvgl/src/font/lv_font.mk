@@ -2,7 +2,27 @@ CSRCS += lv_font.c
 CSRCS += lv_font_fmt_txt.c
 CSRCS += lv_font_loader.c
 
+
 CSRCS += lv_font_dejavu_16_persian_hebrew.c
+CSRCS += lumi_font_helvetica_8.c
+CSRCS += lumi_font_helvetica_10.c
+CSRCS += lumi_font_helvetica_12.c
+CSRCS += lumi_font_helvetica_14.c
+CSRCS += lumi_font_helvetica_16.c
+CSRCS += lumi_font_helvetica_18.c
+CSRCS += lumi_font_helvetica_20.c
+CSRCS += lumi_font_helvetica_22.c
+CSRCS += lumi_font_helvetica_24.c
+CSRCS += lumi_font_helvetica_26.c
+CSRCS += lumi_font_helvetica_28.c
+CSRCS += lumi_font_helvetica_30.c
+CSRCS += lumi_font_helvetica_40.c
+CSRCS += lumi_font_helvetica_46.c
+CSRCS += lumi_font_helvetica_48.c
+CSRCS += lumi_font_helvetica_60.c
+
+CSRCS += font_ducanh_test_20.c
+
 CSRCS += lv_font_montserrat_8.c
 CSRCS += lv_font_montserrat_10.c
 CSRCS += lv_font_montserrat_12.c

@@ -5,15 +5,15 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "mi_panel_datatype.h"
-#include "mi_panel.h"
-#include "mi_disp_datatype.h"
-#include "mi_disp.h"
+#include "/home/ducanhkhuong/Config_ssd202x/project/release/include/mi_panel_datatype.h"
+#include "/home/ducanhkhuong/Config_ssd202x/project/release/include/mi_panel.h"
+#include "/home/ducanhkhuong/Config_ssd202x/project/release/include/mi_disp_datatype.h"
+#include "/home/ducanhkhuong/Config_ssd202x/project/release/include/mi_disp.h"
 
 #include "sstar_disp.h"
 
 #ifdef CHIP_i2m
-#include "SAT070CP50_TTL_1024x600.h"
+#include "/home/ducanhkhuong/project/C/lvgl_gfx/lv_porting_sstar/panel/NV3052CGRB.h"
 #endif
 
 #ifndef SSTAR_DISP_DEV

@@ -5,8 +5,8 @@
 #include <stdio.h>
 #include "sstar_sys.h"
 
-#include "mi_common_datatype.h"
-#include "mi_sys.h"
+#include "/home/ducanhkhuong/Config_ssd202x/project/release/include/mi_common_datatype.h"
+#include "/home/ducanhkhuong/Config_ssd202x/project/release/include/mi_sys.h"
 
 int sstar_sys_init()
 {
