@@ -470,7 +470,22 @@ LV_FONT_DECLARE(lv_font_montserrat_16)
 LV_FONT_DECLARE(lv_font_montserrat_12)
 LV_FONT_DECLARE(lv_font_montserrat_48)
 LV_FONT_DECLARE(lv_font_montserrat_30)
-
+LV_FONT_DECLARE(lumi_font_helvetica_8)
+LV_FONT_DECLARE(lumi_font_helvetica_10)
+LV_FONT_DECLARE(lumi_font_helvetica_12)
+LV_FONT_DECLARE(lumi_font_helvetica_14)
+LV_FONT_DECLARE(lumi_font_helvetica_16)
+LV_FONT_DECLARE(lumi_font_helvetica_18)
+LV_FONT_DECLARE(lumi_font_helvetica_20)
+LV_FONT_DECLARE(lumi_font_helvetica_22)
+LV_FONT_DECLARE(lumi_font_helvetica_24)
+LV_FONT_DECLARE(lumi_font_helvetica_26)
+LV_FONT_DECLARE(lumi_font_helvetica_28)
+LV_FONT_DECLARE(lumi_font_helvetica_30)
+LV_FONT_DECLARE(lumi_font_helvetica_40)
+LV_FONT_DECLARE(lumi_font_helvetica_46)
+LV_FONT_DECLARE(lumi_font_helvetica_48)
+LV_FONT_DECLARE(lumi_font_helvetica_60)
 //-------------------------------------
 
 #ifdef __cplusplus
