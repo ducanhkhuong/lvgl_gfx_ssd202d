@@ -7,7 +7,7 @@
 	lv_obj_set_style_border_width(ui->screen_Setting_Setting_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_Setting_Setting_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_Setting_Header, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_Setting_Header, &lv_font_montserrat_48, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_Setting_Header, &lumi_font_helvetica_48, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_Setting_Header, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_letter_space(ui->screen_Setting_Setting_Header, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_line_space(ui->screen_Setting_Setting_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -36,7 +36,7 @@
 
 	ui->screen_Setting_Setting_tileview_item_btn_Network = lv_btn_create(ui->screen_Setting_Setting_tileview_item);
 	ui->screen_Setting_Setting_tileview_item_btn_Network_label = lv_label_create(ui->screen_Setting_Setting_tileview_item_btn_Network);
-	lv_label_set_text(ui->screen_Setting_Setting_tileview_item_btn_Network_label, "       Network                                 " LV_SYMBOL_RIGHT"");
+	lv_label_set_text(ui->screen_Setting_Setting_tileview_item_btn_Network_label, "       Network");//"LV_SYMBOL_RIGHT"
 	lv_label_set_long_mode(ui->screen_Setting_Setting_tileview_item_btn_Network_label, LV_LABEL_LONG_WRAP);
 	lv_obj_align(ui->screen_Setting_Setting_tileview_item_btn_Network_label, LV_ALIGN_LEFT_MID, 0, 0);
 	lv_obj_set_style_pad_all(ui->screen_Setting_Setting_tileview_item_btn_Network, 0, LV_STATE_DEFAULT);
@@ -50,13 +50,13 @@
 	lv_obj_set_style_radius(ui->screen_Setting_Setting_tileview_item_btn_Network, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_Setting_Setting_tileview_item_btn_Network, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_Setting_tileview_item_btn_Network, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_Setting_tileview_item_btn_Network, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_Setting_tileview_item_btn_Network, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_Setting_tileview_item_btn_Network, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_Setting_Setting_tileview_item_btn_Network, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
 
 	ui->screen_Setting_Setting_tileview_item_btn_DateTime = lv_btn_create(ui->screen_Setting_Setting_tileview_item);
 	ui->screen_Setting_Setting_tileview_item_btn_DateTime_label = lv_label_create(ui->screen_Setting_Setting_tileview_item_btn_DateTime);
-	lv_label_set_text(ui->screen_Setting_Setting_tileview_item_btn_DateTime_label, "       Date&Time                            "LV_SYMBOL_RIGHT"");
+	lv_label_set_text(ui->screen_Setting_Setting_tileview_item_btn_DateTime_label, "       Date&Time");//"LV_SYMBOL_RIGHT"
 	lv_label_set_long_mode(ui->screen_Setting_Setting_tileview_item_btn_DateTime_label, LV_LABEL_LONG_WRAP);
 	lv_obj_align(ui->screen_Setting_Setting_tileview_item_btn_DateTime_label, LV_ALIGN_LEFT_MID, 0, 0);
 	lv_obj_set_style_pad_all(ui->screen_Setting_Setting_tileview_item_btn_DateTime, 0, LV_STATE_DEFAULT);
@@ -70,13 +70,13 @@
 	lv_obj_set_style_radius(ui->screen_Setting_Setting_tileview_item_btn_DateTime, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_Setting_Setting_tileview_item_btn_DateTime, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_Setting_tileview_item_btn_DateTime, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_Setting_tileview_item_btn_DateTime, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_Setting_tileview_item_btn_DateTime, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_Setting_tileview_item_btn_DateTime, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_Setting_Setting_tileview_item_btn_DateTime, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
 
 	ui->screen_Setting_Setting_tileview_item_btn_Language = lv_btn_create(ui->screen_Setting_Setting_tileview_item);
 	ui->screen_Setting_Setting_tileview_item_btn_Language_label = lv_label_create(ui->screen_Setting_Setting_tileview_item_btn_Language);
-	lv_label_set_text(ui->screen_Setting_Setting_tileview_item_btn_Language_label, "       Language                              "LV_SYMBOL_RIGHT"");
+	lv_label_set_text(ui->screen_Setting_Setting_tileview_item_btn_Language_label, "       Language");//"LV_SYMBOL_RIGHT"
 	lv_label_set_long_mode(ui->screen_Setting_Setting_tileview_item_btn_Language_label, LV_LABEL_LONG_WRAP);
 	lv_obj_align(ui->screen_Setting_Setting_tileview_item_btn_Language_label, LV_ALIGN_LEFT_MID, 0, 0);
 	lv_obj_set_style_pad_all(ui->screen_Setting_Setting_tileview_item_btn_Language, 0, LV_STATE_DEFAULT);
@@ -90,13 +90,13 @@
 	lv_obj_set_style_radius(ui->screen_Setting_Setting_tileview_item_btn_Language, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_Setting_Setting_tileview_item_btn_Language, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_Setting_tileview_item_btn_Language, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_Setting_tileview_item_btn_Language, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_Setting_tileview_item_btn_Language, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_Setting_tileview_item_btn_Language, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_Setting_Setting_tileview_item_btn_Language, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
 
 	ui->screen_Setting_Setting_tileview_item_btn_Brightnes = lv_btn_create(ui->screen_Setting_Setting_tileview_item);
 	ui->screen_Setting_Setting_tileview_item_btn_Brightnes_label = lv_label_create(ui->screen_Setting_Setting_tileview_item_btn_Brightnes);
-	lv_label_set_text(ui->screen_Setting_Setting_tileview_item_btn_Brightnes_label, "       Brightness                             "LV_SYMBOL_RIGHT"");
+	lv_label_set_text(ui->screen_Setting_Setting_tileview_item_btn_Brightnes_label, "       Brightness");//"LV_SYMBOL_RIGHT"
 	lv_label_set_long_mode(ui->screen_Setting_Setting_tileview_item_btn_Brightnes_label, LV_LABEL_LONG_WRAP);
 	lv_obj_align(ui->screen_Setting_Setting_tileview_item_btn_Brightnes_label, LV_ALIGN_LEFT_MID, 0, 0);
 	lv_obj_set_style_pad_all(ui->screen_Setting_Setting_tileview_item_btn_Brightnes, 0, LV_STATE_DEFAULT);
@@ -110,13 +110,13 @@
 	lv_obj_set_style_radius(ui->screen_Setting_Setting_tileview_item_btn_Brightnes, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_Setting_Setting_tileview_item_btn_Brightnes, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_Setting_tileview_item_btn_Brightnes, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_Setting_tileview_item_btn_Brightnes, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_Setting_tileview_item_btn_Brightnes, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_Setting_tileview_item_btn_Brightnes, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_Setting_Setting_tileview_item_btn_Brightnes, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
 
 	ui->screen_Setting_Setting_tileview_item_btn_Sleep = lv_btn_create(ui->screen_Setting_Setting_tileview_item);
 	ui->screen_Setting_Setting_tileview_item_btn_Sleep_label = lv_label_create(ui->screen_Setting_Setting_tileview_item_btn_Sleep);
-	lv_label_set_text(ui->screen_Setting_Setting_tileview_item_btn_Sleep_label, "       Sleep                                      "LV_SYMBOL_RIGHT"");
+	lv_label_set_text(ui->screen_Setting_Setting_tileview_item_btn_Sleep_label, "       Sleep");//"LV_SYMBOL_RIGHT"
 	lv_label_set_long_mode(ui->screen_Setting_Setting_tileview_item_btn_Sleep_label, LV_LABEL_LONG_WRAP);
 	lv_obj_align(ui->screen_Setting_Setting_tileview_item_btn_Sleep_label, LV_ALIGN_LEFT_MID, 0, 0);
 	lv_obj_set_style_pad_all(ui->screen_Setting_Setting_tileview_item_btn_Sleep, 0, LV_STATE_DEFAULT);
@@ -130,13 +130,13 @@
 	lv_obj_set_style_radius(ui->screen_Setting_Setting_tileview_item_btn_Sleep, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_Setting_Setting_tileview_item_btn_Sleep, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_Setting_tileview_item_btn_Sleep, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_Setting_tileview_item_btn_Sleep, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_Setting_tileview_item_btn_Sleep, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_Setting_tileview_item_btn_Sleep, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_Setting_Setting_tileview_item_btn_Sleep, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
 
 	ui->screen_Setting_Setting_tileview_item_btn_HomeController = lv_btn_create(ui->screen_Setting_Setting_tileview_item);
 	ui->screen_Setting_Setting_tileview_item_btn_HomeController_label = lv_label_create(ui->screen_Setting_Setting_tileview_item_btn_HomeController);
-	lv_label_set_text(ui->screen_Setting_Setting_tileview_item_btn_HomeController_label, "       Home Controller                  "LV_SYMBOL_RIGHT"");
+	lv_label_set_text(ui->screen_Setting_Setting_tileview_item_btn_HomeController_label, "       Home Controller");//"LV_SYMBOL_RIGHT"
 	lv_label_set_long_mode(ui->screen_Setting_Setting_tileview_item_btn_HomeController_label, LV_LABEL_LONG_WRAP);
 	lv_obj_align(ui->screen_Setting_Setting_tileview_item_btn_HomeController_label, LV_ALIGN_LEFT_MID, 0, 0);
 	lv_obj_set_style_pad_all(ui->screen_Setting_Setting_tileview_item_btn_HomeController, 0, LV_STATE_DEFAULT);
@@ -150,13 +150,13 @@
 	lv_obj_set_style_radius(ui->screen_Setting_Setting_tileview_item_btn_HomeController, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_Setting_Setting_tileview_item_btn_HomeController, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_Setting_tileview_item_btn_HomeController, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_Setting_tileview_item_btn_HomeController, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_Setting_tileview_item_btn_HomeController, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_Setting_tileview_item_btn_HomeController, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_Setting_Setting_tileview_item_btn_HomeController, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
 
 	ui->screen_Setting_Setting_tileview_item_btn_About = lv_btn_create(ui->screen_Setting_Setting_tileview_item);
 	ui->screen_Setting_Setting_tileview_item_btn_About_label = lv_label_create(ui->screen_Setting_Setting_tileview_item_btn_About);
-	lv_label_set_text(ui->screen_Setting_Setting_tileview_item_btn_About_label, "       About                                     "LV_SYMBOL_RIGHT"");
+	lv_label_set_text(ui->screen_Setting_Setting_tileview_item_btn_About_label, "       About");//"LV_SYMBOL_RIGHT"
 	lv_label_set_long_mode(ui->screen_Setting_Setting_tileview_item_btn_About_label, LV_LABEL_LONG_WRAP);
 	lv_obj_align(ui->screen_Setting_Setting_tileview_item_btn_About_label, LV_ALIGN_LEFT_MID, 0, 0);
 	lv_obj_set_style_pad_all(ui->screen_Setting_Setting_tileview_item_btn_About, 0, LV_STATE_DEFAULT);
@@ -170,7 +170,7 @@
 	lv_obj_set_style_radius(ui->screen_Setting_Setting_tileview_item_btn_About, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_Setting_Setting_tileview_item_btn_About, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_Setting_tileview_item_btn_About, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_Setting_tileview_item_btn_About, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_Setting_tileview_item_btn_About, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_Setting_tileview_item_btn_About, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_Setting_Setting_tileview_item_btn_About, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
 

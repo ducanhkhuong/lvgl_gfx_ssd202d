@@ -1,8 +1,8 @@
 
 
 	ui->screen_Setting_DateTime_tileview_item = lv_tileview_create(ui->screen_Setting_DateTime);
-	ui->screen_Setting_DateTime_tileview_item_datetime = lv_tileview_add_tile(ui->screen_Setting_DateTime_tileview_item, 0, 0, LV_DIR_LEFT | LV_DIR_RIGHT);
-	ui->screen_Setting_DateTime_tileview_item_timezone = lv_tileview_add_tile(ui->screen_Setting_DateTime_tileview_item, 1, 0, LV_DIR_LEFT | LV_DIR_RIGHT);
+	ui->screen_Setting_DateTime_tileview_item_datetime = lv_tileview_add_tile(ui->screen_Setting_DateTime_tileview_item, 0, 0, LV_DIR_TOP | LV_DIR_BOTTOM);
+	ui->screen_Setting_DateTime_tileview_item_timezone = lv_tileview_add_tile(ui->screen_Setting_DateTime_tileview_item, 0, 1, LV_DIR_TOP | LV_DIR_BOTTOM);
 	lv_obj_set_pos(ui->screen_Setting_DateTime_tileview_item, 0, 0);
 	lv_obj_set_size(ui->screen_Setting_DateTime_tileview_item, 720, 720);
 	lv_obj_set_scrollbar_mode(ui->screen_Setting_DateTime_tileview_item, LV_SCROLLBAR_MODE_OFF);
@@ -32,7 +32,7 @@
 	lv_obj_set_style_radius(ui->screen_Setting_DateTime_tileview_item_datetime_btn_24hourse, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_Setting_DateTime_tileview_item_datetime_btn_24hourse, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_DateTime_tileview_item_datetime_btn_24hourse, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_DateTime_tileview_item_datetime_btn_24hourse, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_DateTime_tileview_item_datetime_btn_24hourse, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_DateTime_tileview_item_datetime_btn_24hourse, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_Setting_DateTime_tileview_item_datetime_btn_24hourse, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -44,7 +44,7 @@
 	lv_obj_set_style_border_width(ui->screen_Setting_DateTime_tileview_item_datetime_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_Setting_DateTime_tileview_item_datetime_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_DateTime_tileview_item_datetime_Header, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_DateTime_tileview_item_datetime_Header, &lv_font_montserrat_48, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_DateTime_tileview_item_datetime_Header, &lumi_font_helvetica_48, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_DateTime_tileview_item_datetime_Header, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_letter_space(ui->screen_Setting_DateTime_tileview_item_datetime_Header, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_line_space(ui->screen_Setting_DateTime_tileview_item_datetime_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -72,7 +72,7 @@
 	lv_obj_set_style_radius(ui->screen_Setting_DateTime_tileview_item_datetime_btn_TimeZone, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_Setting_DateTime_tileview_item_datetime_btn_TimeZone, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_DateTime_tileview_item_datetime_btn_TimeZone, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_DateTime_tileview_item_datetime_btn_TimeZone, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_DateTime_tileview_item_datetime_btn_TimeZone, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_DateTime_tileview_item_datetime_btn_TimeZone, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_Setting_DateTime_tileview_item_datetime_btn_TimeZone, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -92,7 +92,7 @@
 	lv_obj_set_style_radius(ui->screen_Setting_DateTime_tileview_item_datetime_btn_Save, 50, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_Setting_DateTime_tileview_item_datetime_btn_Save, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_DateTime_tileview_item_datetime_btn_Save, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_DateTime_tileview_item_datetime_btn_Save, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_DateTime_tileview_item_datetime_btn_Save, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_DateTime_tileview_item_datetime_btn_Save, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_Setting_DateTime_tileview_item_datetime_btn_Save, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -104,7 +104,7 @@
 	lv_obj_set_style_border_width(ui->screen_Setting_DateTime_tileview_item_datetime_NameTimeZone, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_Setting_DateTime_tileview_item_datetime_NameTimeZone, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_DateTime_tileview_item_datetime_NameTimeZone, lv_color_hex(0xacacac), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_DateTime_tileview_item_datetime_NameTimeZone, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_DateTime_tileview_item_datetime_NameTimeZone, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_DateTime_tileview_item_datetime_NameTimeZone, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_letter_space(ui->screen_Setting_DateTime_tileview_item_datetime_NameTimeZone, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_line_space(ui->screen_Setting_DateTime_tileview_item_datetime_NameTimeZone, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -191,7 +191,7 @@
 	lv_obj_set_style_radius(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_Hongkong, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_Hongkong, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_Hongkong, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_Hongkong, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_Hongkong, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_Hongkong, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_Hongkong, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -212,7 +212,7 @@
 	lv_obj_set_style_radius(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_HCM, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_HCM, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_HCM, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_HCM, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_HCM, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_HCM, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_HCM, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -233,7 +233,7 @@
 	lv_obj_set_style_radius(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_Jakata, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_Jakata, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_Jakata, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_Jakata, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_Jakata, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_Jakata, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_Jakata, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -254,7 +254,7 @@
 	lv_obj_set_style_radius(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_Bangkok, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_Bangkok, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_Bangkok, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_Bangkok, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_Bangkok, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_Bangkok, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_Setting_DateTime_tileview_item_timezone_tileview_item_btn_Bangkok, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 	
@@ -274,7 +274,7 @@
 	lv_obj_set_style_radius(ui->screen_Setting_DateTime_tileview_item_timezone_btn_Save, 50, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_Setting_DateTime_tileview_item_timezone_btn_Save, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_DateTime_tileview_item_timezone_btn_Save, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_DateTime_tileview_item_timezone_btn_Save, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_DateTime_tileview_item_timezone_btn_Save, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_DateTime_tileview_item_timezone_btn_Save, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_Setting_DateTime_tileview_item_timezone_btn_Save, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -286,7 +286,7 @@
 	lv_obj_set_style_border_width(ui->screen_Setting_DateTime_tileview_item_timezone_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_Setting_DateTime_tileview_item_timezone_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_DateTime_tileview_item_timezone_Header, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_DateTime_tileview_item_timezone_Header, &lv_font_montserrat_48, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_DateTime_tileview_item_timezone_Header, &lumi_font_helvetica_48, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_DateTime_tileview_item_timezone_Header, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_letter_space(ui->screen_Setting_DateTime_tileview_item_timezone_Header, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_line_space(ui->screen_Setting_DateTime_tileview_item_timezone_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);

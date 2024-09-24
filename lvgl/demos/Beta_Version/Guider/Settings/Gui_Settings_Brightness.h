@@ -7,7 +7,7 @@
 	lv_obj_set_style_border_width(ui->screen_Setting_Brightness_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_Setting_Brightness_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_Brightness_Header, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_Brightness_Header, &lv_font_montserrat_48, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_Brightness_Header, &lumi_font_helvetica_48, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_Brightness_Header, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_letter_space(ui->screen_Setting_Brightness_Header, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_line_space(ui->screen_Setting_Brightness_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -57,7 +57,7 @@
 	lv_obj_set_style_border_width(ui->screen_label_31, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_label_31, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_label_31, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_label_31, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_label_31, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_label_31, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_letter_space(ui->screen_label_31, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_line_space(ui->screen_label_31, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -89,7 +89,7 @@
 	lv_obj_set_style_border_width(ui->screen_Setting_Brightness_label_ValueBrightness, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_Setting_Brightness_label_ValueBrightness, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_Brightness_label_ValueBrightness, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_Brightness_label_ValueBrightness, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_Brightness_label_ValueBrightness, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_Brightness_label_ValueBrightness, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_letter_space(ui->screen_Setting_Brightness_label_ValueBrightness, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_line_space(ui->screen_Setting_Brightness_label_ValueBrightness, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -109,7 +109,7 @@
 	lv_obj_set_style_border_width(ui->screen_Setting_Brightness_label_Symbol, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_Setting_Brightness_label_Symbol, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_Brightness_label_Symbol, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_Brightness_label_Symbol, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_Brightness_label_Symbol, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_Brightness_label_Symbol, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_letter_space(ui->screen_Setting_Brightness_label_Symbol, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_line_space(ui->screen_Setting_Brightness_label_Symbol, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -137,7 +137,7 @@
 	lv_obj_set_style_radius(ui->screen_Setting_Brightness_btn_Save, 50, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_Setting_Brightness_btn_Save, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_Brightness_btn_Save, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_Brightness_btn_Save, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_Brightness_btn_Save, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_Brightness_btn_Save, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_Setting_Brightness_btn_Save, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 

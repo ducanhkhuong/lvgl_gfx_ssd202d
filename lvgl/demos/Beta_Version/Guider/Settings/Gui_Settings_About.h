@@ -6,7 +6,7 @@
 	lv_obj_set_style_border_width(ui->screen_Setting_About_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_Setting_About_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_About_Header, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_About_Header, &lv_font_montserrat_48, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_About_Header, &lumi_font_helvetica_48, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_About_Header, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_letter_space(ui->screen_Setting_About_Header, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_line_space(ui->screen_Setting_About_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -98,7 +98,7 @@
 	lv_obj_set_style_radius(ui->screen_btn_87, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_btn_87, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_btn_87, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_btn_87, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_btn_87, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_btn_87, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_btn_87, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -111,7 +111,7 @@
 	lv_obj_set_style_border_width(ui->screen_Setting_About_label_MAC, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_Setting_About_label_MAC, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_About_label_MAC, lv_color_hex(0xacacac), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_About_label_MAC, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_About_label_MAC, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_About_label_MAC, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_letter_space(ui->screen_Setting_About_label_MAC, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_line_space(ui->screen_Setting_About_label_MAC, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -153,7 +153,7 @@
 	lv_obj_set_style_border_width(ui->screen_label_45, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_label_45, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_label_45, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_label_45, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_label_45, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_label_45, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_letter_space(ui->screen_label_45, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_line_space(ui->screen_label_45, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -174,7 +174,7 @@
 	lv_obj_set_style_border_width(ui->screen_Setting_About_label_Version, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_Setting_About_label_Version, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_About_label_Version, lv_color_hex(0xacacac), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_About_label_Version, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_About_label_Version, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_About_label_Version, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_letter_space(ui->screen_Setting_About_label_Version, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_line_space(ui->screen_Setting_About_label_Version, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -195,7 +195,7 @@
 	lv_obj_set_style_border_width(ui->screen_Setting_About_label_Checkforupdate, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_Setting_About_label_Checkforupdate, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_About_label_Checkforupdate, lv_color_hex(0x2fDA64), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_About_label_Checkforupdate, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_About_label_Checkforupdate, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_About_label_Checkforupdate, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_letter_space(ui->screen_Setting_About_label_Checkforupdate, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_line_space(ui->screen_Setting_About_label_Checkforupdate, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -216,7 +216,7 @@
 	lv_obj_set_style_border_width(ui->screen_Setting_About_label_Reboot, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_Setting_About_label_Reboot, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_About_label_Reboot, lv_color_hex(0xff0000), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_About_label_Reboot, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_About_label_Reboot, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_About_label_Reboot, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_letter_space(ui->screen_Setting_About_label_Reboot, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_line_space(ui->screen_Setting_About_label_Reboot, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -237,7 +237,7 @@
 	lv_obj_set_style_border_width(ui->screen_Setting_About_label_Resetfactory, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_Setting_About_label_Resetfactory, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_About_label_Resetfactory, lv_color_hex(0xff0000), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_About_label_Resetfactory, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_About_label_Resetfactory, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_About_label_Resetfactory, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_letter_space(ui->screen_Setting_About_label_Resetfactory, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_line_space(ui->screen_Setting_About_label_Resetfactory, 0, LV_PART_MAIN|LV_STATE_DEFAULT);

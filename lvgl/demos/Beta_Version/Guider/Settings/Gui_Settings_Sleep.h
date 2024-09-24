@@ -7,7 +7,7 @@
 	lv_obj_set_style_border_width(ui->screen_Setting_Sleep_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_Setting_Sleep_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_Sleep_Header, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_Sleep_Header, &lv_font_montserrat_48, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_Sleep_Header, &lumi_font_helvetica_48, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_Sleep_Header, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_letter_space(ui->screen_Setting_Sleep_Header, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_line_space(ui->screen_Setting_Sleep_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -35,7 +35,7 @@
 	lv_obj_set_style_radius(ui->screen_Setting_Sleep_btn_2minutes, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_Setting_Sleep_btn_2minutes, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_Sleep_btn_2minutes, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_Sleep_btn_2minutes, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_Sleep_btn_2minutes, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_Sleep_btn_2minutes, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_Setting_Sleep_btn_2minutes, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -55,7 +55,7 @@
 	lv_obj_set_style_radius(ui->screen_Setting_Sleep_btn_3minutes, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_Setting_Sleep_btn_3minutes, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_Sleep_btn_3minutes, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_Sleep_btn_3minutes, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_Sleep_btn_3minutes, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_Sleep_btn_3minutes, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_Setting_Sleep_btn_3minutes, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -75,7 +75,7 @@
 	lv_obj_set_style_radius(ui->screen_Setting_Sleep_btn_5minutes, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_Setting_Sleep_btn_5minutes, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_Sleep_btn_5minutes, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_Sleep_btn_5minutes, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_Sleep_btn_5minutes, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_Sleep_btn_5minutes, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_Setting_Sleep_btn_5minutes, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -95,7 +95,7 @@
 	lv_obj_set_style_radius(ui->screen_Setting_Sleep_btn_15minutes, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_Setting_Sleep_btn_15minutes, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_Sleep_btn_15minutes, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_Sleep_btn_15minutes, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_Sleep_btn_15minutes, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_Sleep_btn_15minutes, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_Setting_Sleep_btn_15minutes, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -116,7 +116,7 @@
 	lv_obj_set_style_radius(ui->screen_Setting_Sleep_btn_Save, 50, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_Setting_Sleep_btn_Save, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_Sleep_btn_Save, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_Setting_Sleep_btn_Save, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_Setting_Sleep_btn_Save, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_Setting_Sleep_btn_Save, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_Setting_Sleep_btn_Save, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
