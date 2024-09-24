@@ -91,7 +91,6 @@ void Event_FirstBoot_Background()
     lv_obj_add_event_cb(guider_ui.screen_FirstBoot_Background_img_3, image4_event_handle, LV_EVENT_CLICKED, NULL);
     lv_obj_add_event_cb(guider_ui.screen_FirstBoot_Background_img_4, image5_event_handle, LV_EVENT_CLICKED, NULL);
     lv_obj_add_event_cb(guider_ui.screen_FirstBoot_Background_img_5, image6_event_handle, LV_EVENT_CLICKED, NULL);
-
     lv_obj_add_event_cb(guider_ui.screen_FirstBoot_Background_btn_Next, Background_next_event_handler, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(guider_ui.screen_FirstBoot_Background_btn_Previous, Background_previous_event_handler, LV_EVENT_ALL, NULL);
 }
