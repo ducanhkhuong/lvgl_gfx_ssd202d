@@ -9,7 +9,7 @@ static void datetime_next_timezone_event_handler(lv_event_t *e)
     }
     else if (code == LV_EVENT_CLICKED)
     {
-        lv_obj_set_tile_id(guider_ui.screen_FirstBoot_DateTime_tileview_gui, 1, 0, LV_ANIM_ON);
+        lv_obj_set_tile_id(guider_ui.screen_FirstBoot_DateTime_tileview_gui, 0, 1, LV_ANIM_OFF);
     }
     else if (code == LV_EVENT_RELEASED || code == LV_EVENT_PRESS_LOST)
     {
@@ -27,7 +27,7 @@ static void timezone_next_datetime_event_handler(lv_event_t *e)
     }
     else if (code == LV_EVENT_CLICKED)
     {
-        lv_obj_set_tile_id(guider_ui.screen_FirstBoot_DateTime_tileview_gui, 0, 0, LV_ANIM_ON);
+        lv_obj_set_tile_id(guider_ui.screen_FirstBoot_DateTime_tileview_gui, 0, 0, LV_ANIM_OFF);
     }
     else if (code == LV_EVENT_RELEASED || code == LV_EVENT_PRESS_LOST)
     {
