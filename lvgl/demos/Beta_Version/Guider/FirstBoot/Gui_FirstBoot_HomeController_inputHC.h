@@ -7,7 +7,7 @@
 	lv_obj_set_style_border_width(ui->screen_FirstBoot_HomeController_inputHC_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_FirstBoot_HomeController_inputHC_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_FirstBoot_HomeController_inputHC_Header, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_FirstBoot_HomeController_inputHC_Header, &lv_font_montserrat_48, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_FirstBoot_HomeController_inputHC_Header, &lumi_font_helvetica_48, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_FirstBoot_HomeController_inputHC_Header, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_letter_space(ui->screen_FirstBoot_HomeController_inputHC_Header, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_line_space(ui->screen_FirstBoot_HomeController_inputHC_Header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -90,6 +90,6 @@
 	lv_obj_set_style_radius(ui->screen_FirstBoot_HomeController_inputHC_btn_Done, 50, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_shadow_width(ui->screen_FirstBoot_HomeController_inputHC_btn_Done, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_FirstBoot_HomeController_inputHC_btn_Done, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-	lv_obj_set_style_text_font(ui->screen_FirstBoot_HomeController_inputHC_btn_Done, &lv_font_montserrat_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+	lv_obj_set_style_text_font(ui->screen_FirstBoot_HomeController_inputHC_btn_Done, &lumi_font_helvetica_40, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_opa(ui->screen_FirstBoot_HomeController_inputHC_btn_Done, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_align(ui->screen_FirstBoot_HomeController_inputHC_btn_Done, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
