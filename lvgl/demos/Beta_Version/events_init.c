@@ -81,6 +81,16 @@ static void screen_event_handler(lv_event_t *e)
     {
     case LV_EVENT_SCREEN_LOADED:
     {
+        Event_FirstBoot_Welcome();
+        Event_FirstBoot_Language();
+        Event_FirstBoot_Background();
+        Event_FirstBoot_Datetime();
+        Event_FirstBoot_Network();
+        // Event_FirstBoot_ScanHC();
+        // Event_FirstBoot_PrintHC();
+        // Event_FirstBoot_InputHC();
+        // Event_FirstBoot_NoHC();
+        // Event_FirstBoot_SetupDone();
         test();
         break;
     }
