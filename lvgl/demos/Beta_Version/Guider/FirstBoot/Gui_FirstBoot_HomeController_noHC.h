@@ -81,10 +81,10 @@
 
 
 	ui->screen_FirstBoot_HomeController_noHC_label_NoHCfound = lv_label_create(ui->screen_FirstBoot_HomeController_noHC);
-	lv_label_set_text(ui->screen_FirstBoot_HomeController_noHC_label_NoHCfound, "No HC found     ");
+	lv_label_set_text(ui->screen_FirstBoot_HomeController_noHC_label_NoHCfound, "    No HC found     ");
 	lv_label_set_long_mode(ui->screen_FirstBoot_HomeController_noHC_label_NoHCfound, LV_LABEL_LONG_WRAP);
-	lv_obj_set_pos(ui->screen_FirstBoot_HomeController_noHC_label_NoHCfound, 211, 304);
-	lv_obj_set_size(ui->screen_FirstBoot_HomeController_noHC_label_NoHCfound, 370, 94);
+	lv_obj_set_pos(ui->screen_FirstBoot_HomeController_noHC_label_NoHCfound, 170, 304);
+	lv_obj_set_size(ui->screen_FirstBoot_HomeController_noHC_label_NoHCfound, 410, 94);
 	lv_obj_set_style_border_width(ui->screen_FirstBoot_HomeController_noHC_label_NoHCfound, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_FirstBoot_HomeController_noHC_label_NoHCfound, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_FirstBoot_HomeController_noHC_label_NoHCfound, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);

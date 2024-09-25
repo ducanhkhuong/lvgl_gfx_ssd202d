@@ -22,7 +22,7 @@
 	lv_label_set_text(ui->screen_Setting_NotNetwork_label_Content, "Not connected.\nPlug in your\nethernet cable.  ");
 	lv_label_set_long_mode(ui->screen_Setting_NotNetwork_label_Content, LV_LABEL_LONG_WRAP);
 	lv_obj_set_pos(ui->screen_Setting_NotNetwork_label_Content, 20, 295);
-	lv_obj_set_size(ui->screen_Setting_NotNetwork_label_Content, 680, 150);
+	lv_obj_set_size(ui->screen_Setting_NotNetwork_label_Content, 680, 190);
 	lv_obj_set_style_border_width(ui->screen_Setting_NotNetwork_label_Content, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_Setting_NotNetwork_label_Content, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_text_color(ui->screen_Setting_NotNetwork_label_Content, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);

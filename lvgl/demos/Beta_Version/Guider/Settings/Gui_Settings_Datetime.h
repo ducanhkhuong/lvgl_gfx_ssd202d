@@ -37,7 +37,7 @@
 	lv_obj_set_style_text_align(ui->screen_Setting_DateTime_tileview_item_datetime_btn_24hourse, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
 
 	ui->screen_Setting_DateTime_tileview_item_datetime_Header = lv_label_create(ui->screen_Setting_DateTime_tileview_item_datetime);
-	lv_label_set_text(ui->screen_Setting_DateTime_tileview_item_datetime_Header, "Date & Time");
+	lv_label_set_text(ui->screen_Setting_DateTime_tileview_item_datetime_Header, "Date&Time");
 	lv_label_set_long_mode(ui->screen_Setting_DateTime_tileview_item_datetime_Header, LV_LABEL_LONG_WRAP);
 	lv_obj_set_pos(ui->screen_Setting_DateTime_tileview_item_datetime_Header, 20, 33);
 	lv_obj_set_size(ui->screen_Setting_DateTime_tileview_item_datetime_Header, 680, 80);

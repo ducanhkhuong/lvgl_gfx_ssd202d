@@ -52,7 +52,7 @@
 	ui->screen_label_31 = lv_label_create(ui->screen_Setting_Brightness);
 	lv_label_set_text(ui->screen_label_31, "Brightness");
 	lv_label_set_long_mode(ui->screen_label_31, LV_LABEL_LONG_WRAP);
-	lv_obj_set_pos(ui->screen_label_31, 27, 151);
+	lv_obj_set_pos(ui->screen_label_31, 10, 151);
 	lv_obj_set_size(ui->screen_label_31, 331, 52);
 	lv_obj_set_style_border_width(ui->screen_label_31, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 	lv_obj_set_style_radius(ui->screen_label_31, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
