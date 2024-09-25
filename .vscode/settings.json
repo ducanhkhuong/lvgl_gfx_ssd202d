@@ -85,7 +85,8 @@
         "event_settings_setting.h": "c",
         "event_settings_network.h": "c",
         "event_settings_language.h": "c",
-        "event_settings_datetime.h": "c"
+        "event_settings_datetime.h": "c",
+        "event_settings_brightness.h": "c"
     },
     "cmake.ignoreCMakeListsMissing": true,
     "C_Cpp.errorSquiggles": "disabled"

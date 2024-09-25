@@ -79,6 +79,7 @@ static void screen_event_handler(lv_event_t *e)
             Event_Settings_Network();
             Event_Settings_DateTime();
             Event_Settings_Language();
+            Event_Settings_Brightness();
         //
         break;
     }
