@@ -81,6 +81,11 @@ static void screen_event_handler(lv_event_t *e)
             Event_Settings_Language();
             Event_Settings_Brightness();
             Event_Settings_Sleep();
+            // Event_Settings_HomeController_ScanHC();
+            // Event_Settings_HomeController_PrintHC();
+            // Event_Settings_HomeController_InputHC();
+            // Event_Settings_HomeController_NoHC();
+            Event_Settings_About();
         //
         break;
     }
