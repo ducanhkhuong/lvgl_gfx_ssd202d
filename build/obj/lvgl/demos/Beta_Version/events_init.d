@@ -164,6 +164,7 @@ build//obj/./lvgl/demos/Beta_Version/events_init.o: \
  lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.h \
  lvgl/src/extra/libs/ffmpeg/../../../lvgl.h \
  lvgl/src/extra/widgets/animimg/lv_animimg.h \
+ lvgl/demos/Beta_Version/Event/FirstBoot/Event_FirstBoot_Logo.h \
  lvgl/demos/Beta_Version/Event/FirstBoot/Event_FirstBoot_Welcome.h \
  lvgl/demos/Beta_Version/Event/FirstBoot/Event_FirstBoot_Language.h \
  lvgl/demos/Beta_Version/Event/FirstBoot/Event_FirstBoot_Background.h \

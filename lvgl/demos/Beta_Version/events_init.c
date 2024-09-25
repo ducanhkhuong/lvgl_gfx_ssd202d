@@ -12,6 +12,7 @@
 #include "lvgl.h"
 
 //Event-FirstBoot-------------------------------------
+#include "Event/FirstBoot/Event_FirstBoot_Logo.h"
 #include "Event/FirstBoot/Event_FirstBoot_Welcome.h"
 #include "Event/FirstBoot/Event_FirstBoot_Language.h"
 #include "Event/FirstBoot/Event_FirstBoot_Background.h"
@@ -81,6 +82,7 @@ static void screen_event_handler(lv_event_t *e)
     {
     case LV_EVENT_SCREEN_LOADED:
     {
+        Event_FirstBoot_Logo();
         Event_FirstBoot_Welcome();
         Event_FirstBoot_Language();
         Event_FirstBoot_Background();
