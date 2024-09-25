@@ -77,6 +77,7 @@ static void screen_event_handler(lv_event_t *e)
         //Settings
             Event_Settings_Setting();
             Event_Settings_Network();
+            Event_Settings_DateTime();
         //
         break;
     }
