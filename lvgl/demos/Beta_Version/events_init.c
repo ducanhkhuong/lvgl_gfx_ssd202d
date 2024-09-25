@@ -74,7 +74,9 @@ static void screen_event_handler(lv_event_t *e)
             Event_FirstBoot_SetupDone();
         //
 
-
+        //Settings
+            Event_Settings_Setting();
+        //
         break;
     }
     default:

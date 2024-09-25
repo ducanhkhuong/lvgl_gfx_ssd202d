@@ -81,7 +81,9 @@
         "gui_settings_homecontroller_nohc.h": "c",
         "gui_settings_homecontroller_inputhc.h": "c",
         "gui_settings_about.h": "c",
-        "gui_firstboot_homecontroller_printhc.h": "c"
+        "gui_firstboot_homecontroller_printhc.h": "c",
+        "event_settings_setting.h": "c",
+        "event_settings_network.h": "c"
     },
     "cmake.ignoreCMakeListsMissing": true,
     "C_Cpp.errorSquiggles": "disabled"
