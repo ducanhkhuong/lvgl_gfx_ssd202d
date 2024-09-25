@@ -107,6 +107,7 @@ char *vietnamese_texts[] = {
 };
 
 static lv_obj_t *labels[40];
+
 void config_label(){
     //Language
     labels[0] = guider_ui.screen_FirstBoot_Language_Header;
